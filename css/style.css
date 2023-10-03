@@ -2,10 +2,15 @@
 .letraEspecial {
 
     font: 100% sans-serif;
+    color: aliceblue;
 
 }
 
 .logo {
-    height: 100px;
-    width: 200px;
+    height: 110px;
+    width: 250px;
+}
+
+.black {
+    background: linear-gradient(to bottom right,#191919, #303030);
 }

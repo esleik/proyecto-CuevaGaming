@@ -1,6 +1,11 @@
 
 .letraEspecial {
 
-    font: 130% sans-serif;
+    font: 100% sans-serif;
 
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
 }

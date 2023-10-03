@@ -1,0 +1,95 @@
+.black {
+    background: linear-gradient(to bottom right,#191919, #303030);
+}
+
+.letraEspecial {
+
+    font: 100% sans-serif;
+    color: aliceblue;
+
+}
+
+.logo {
+    height: 110px;
+    width: 250px;
+}
+body{
+    background-color: #ABABAB;
+}
+.suscribete {
+    font-size: 32px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.suscribeteencuevagaming{
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+
+hr {
+    background-color: #93642A;
+    height: 2px;
+    border: none;
+    width: 70%;
+    margin-top: 95px;
+    margin-left: 250px;
+}
+.imagensub{
+    position: absolute;
+    top: 37%;
+    left: 8%;
+    margin-left: 470px;
+    width: 5%;
+}
+.email{
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    font-size: 24px;
+}
+
+.textoemail{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin-left: -30px;
+    width: 250px;
+    height: 20px;
+}
+.usuario{
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    font-size: 24px;
+}
+.textousuario{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    margin-left: -30px;
+    width: 250px;
+    height: 20px;
+}
+.contraseña{
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    font-size: 24px;
+}
+.textocontraseña{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    margin-left: -30px;
+    width: 250px;
+    height: 20px;
+}

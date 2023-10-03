@@ -1,7 +1,7 @@
 
 .letraEspecial {
 
-    font: 100% sans-serif;
+    font: 110% sans-serif;
     color: aliceblue;
 
 }
@@ -12,8 +12,8 @@
 }
 
 .logo {
-    height: 115px;
-    width: 250px;
+    height: 160px;
+    width: 340px;
 }
 
 .black {
@@ -23,12 +23,22 @@
 
 .lista {
     
-    display: inline-block;
-    margin-left: 30px;
+    
+    margin-left: 40px;
+    margin-right: 50px;
     color: #FFFFFF;
     padding-left: 20px;
     padding-right: 8px;
     position: relative;
     width: 150px;
     text-align: center;
+}
+
+.idioma{
+    margin-bottom: 40px;
+    padding-left: 2px;
+    padding-right: 1px;
+    position:relative;
+    text-align: center;
+
 }

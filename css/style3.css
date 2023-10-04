@@ -9,9 +9,33 @@
 
 }
 
+.letraEspecialN{
+    font: 100% sans-serif;
+    color: #191919;
+}
+
 .logo {
-    height: 110px;
-    width: 250px;
+    height: 160px;
+    width: 340px;
+}
+.lista {
+    margin-left: 40px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 8px;
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+
+.idioma{
+    margin-bottom: 40px;
+    padding-left: 2px;
+    padding-right: 1px;
+    position:relative;
+    text-align: center;
+
 }
 body{
     background-color: #ABABAB;
@@ -40,8 +64,9 @@ hr {
     height: 2px;
     border: none;
     width: 70%;
-    margin-top: 95px;
-    margin-left: 250px;
+    margin-top: 158px;
+    margin-left: 180px;
+    opacity: 80%;
 }
 .imagensub{
     position: absolute;

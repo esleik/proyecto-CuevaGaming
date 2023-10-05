@@ -58,11 +58,20 @@
 
 .tamañoImagen{
 
-    width: 350px;
+    width: 480px;
     height: 350px;
-    border-radius: 4%;
+    border-radius: 3%;
     margin-top: 10%;
     margin-bottom: 5%;
-    margin-left: 140px;
+    margin-left: 100px;
     opacity: 95%;
 }
+
+body{
+    
+    background: radial-gradient(#4e4f4e, #5B5D5C);
+}
+
+.element {
+    box-shadow: 5px 5px #242424;
+  }

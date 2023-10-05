@@ -6,6 +6,12 @@
 
 }
 
+.letraEspecialsolo{
+
+    font: 200% sans-serif;
+    color: aliceblue;
+}
+
 .letraEspecialN{
     font: 100% sans-serif;
     color: #191919;
@@ -41,4 +47,22 @@
     position:relative;
     text-align: center;
 
+}
+
+.TamImagenCarousel{
+
+    width: 300px;
+    height: 580px;
+    opacity: 85%;
+}
+
+.tamañoImagen{
+
+    width: 350px;
+    height: 350px;
+    border-radius: 4%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 140px;
+    opacity: 95%;
 }

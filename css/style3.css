@@ -61,8 +61,8 @@ body{
 
 .primeralinea {
     background-color: black;
-    height: 2px;
-    border: none;
+    height: 4px;
+    border-radius: 5px;
     width: 85%;
     margin-top: 77px;
     margin-left: 200px;
@@ -78,14 +78,14 @@ body{
 .email{
     position: absolute;
     color: black;
-    top: 37%;
+    top: 40%;
     left: 10%;
     font-size: 24px;
 }
 
 .textoemail{
     position: absolute;
-    top: 43%;
+    top: 46%;
     left: 12%;
     margin-left: -30px;
     width: 250px;
@@ -94,13 +94,13 @@ body{
 .usuario{
     position: absolute;
     color: black;
-    top: 47%;
+    top: 50%;
     left: 10%;
     font-size: 24px;
 }
 .textousuario{
     position: absolute;
-    top: 53%;
+    top: 56%;
     left: 12%;
     margin-left: -30px;
     width: 250px;
@@ -109,13 +109,13 @@ body{
 .contraseña{
     position: absolute;
     color: black;
-    top: 57%;
+    top: 60%;
     left: 10%;
     font-size: 24px;
 }
 .textocontraseña{
     position: absolute;
-    top: 63%;
+    top: 66%;
     left: 12%;
     margin-left: -30px;
     width: 250px;
@@ -123,11 +123,25 @@ body{
 }
 .boton{
     position: absolute;
-    top: 70%;
+    top: 73%;
     left: 12%;
-    margin-left: 120px;
-    width: 100px;
+    margin-left: -30px;
+    width: 200px;
     height: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3498db;
+    border: none;
+    font-size: 14px;
+}
+.boton:hover{
+    background-color: #2980b9;
+    font-size: 14px;
+    font-weight: bold;
+}
+.boton:active{
+    background-color: #1f6690;
 }
 .sobrenosotros{
     font-size: 30px;
@@ -148,8 +162,8 @@ body{
 }
 .segundalinea{
     background-color: black;
-    height: 2px;
-    border: none;
+    height: 4px;
+    border-radius: 5px;
     width: 100%;
     margin-top: 550px;
     margin-left: 0px;
@@ -159,6 +173,7 @@ body{
     position: absolute;
     top: 41%;
     left: 76%;
+    cursor: pointer;
 }
 .parrafo{
     font-weight: 600;
@@ -170,9 +185,9 @@ body{
 
 }
 .terceralinea{
-    background-color: black;;
-    height: 2px;
-    border: none;
+    background-color: black;
+    height: 4px;
+    border-radius: 5px;
     width: 100%;
     margin-top: 170px;
     margin-left: 0px;
@@ -180,7 +195,7 @@ body{
 }
 .contacte{
     position: absolute;
-    top: 95%;
+    top: 96%;
     left: 10.5%;
     margin-left: 200px;
     width: 250px;
@@ -191,27 +206,27 @@ body{
 }
 .soporte{
     position: absolute;
-    top: 102%;
+    top: 103%;
     left: 10.5%;
     margin-left: 200px;
 }
 .correo{
     position: absolute;
-    top: 102%;
+    top: 103%;
     left: 10.5%;
     margin-left: 290px;
     font-size: 20px;
 }
 .numero{
     position: absolute;
-    top: 107%;
+    top: 108%;
     left: 10.5%;
     margin-left: 290px;
     font-size: 20px;
 }
 .redessociales{
     position: absolute;
-    top: 95%;
+    top: 96%;
     left: 10.5%;
     margin-left: 710px;
     width: 250px;
@@ -222,19 +237,19 @@ body{
 }
 .instagram{
     position: absolute;
-    top: 103%;
+    top: 104%;
     left: 10.5%;
     margin-left: 640px;
 }
 .twitter{
     position: absolute;
-    top: 103%;
+    top: 104%;
     left: 10.5%;
     margin-left: 750px;
 }
 .tiktok{
     position: absolute;
-    top: 103%;
+    top: 104%;
     left: 10.5%;
     margin-left: 860px;
 }

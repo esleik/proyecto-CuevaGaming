@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Jockey+One&family=Passion+One&family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style3.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Acme&family=Jockey+One&family=Passion+One&family=Righteous&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style3.css">
 </head>
+
 <body>
-    <!-- navegador con Logo, Inicio, Noticias y Sobre nosotros-->
+  <!-- navegador con Logo, Inicio, Noticias y Sobre nosotros-->
   <nav class="navbar navbar-expand-md black pb-0" style="height: 100px;">
     <div class="container-xl">
       <a class="navbar-brand" href="../html/index.html">
@@ -34,53 +38,64 @@
       </lu>
     </div>
   </nav>
-    <!-- MIO -->
-    <div class="container-xl">
+  <!-- MIO -->
+  <div class="container-xl">
     <div class="suscribete">SUSCRIBETE</div>
     <div class="suscribeteencuevagaming">SUSCRIBETE EN CUEVAGAMING.COM</div>
     <label class="email">Email:</label>
-    <input class="textoemail" type="text"/>
+    <input class="textoemail" type="text" />
     <label class="usuario">Nombre de usuario:</label>
-    <input class="textousuario" type="text"/>
+    <input class="textousuario" type="text" />
     <label class="contraseña">Contraseña:</label>
-    <input class="textocontraseña" type="password"/>
+    <input class="textocontraseña" type="password" />
     <button class="boton">Registrarse</button>
     <div class="sobrenosotros">SOBRE NOSOTROS</div>
     <div class="creadopor">Creado por Ismail, Alejandro y Maxim</div>
     <hr class="primeralinea">
     <hr class="segundalinea">
     <hr class="terceralinea">
-    <img class = "flecha" src="../img/logo9.png" height="60px" width="60px">
+    <a data-bs-toggle="collapse" data-bs-target="#probando">
+      <img class="flecha" src="../img/logo9.png" height="60px" width="60px" id="mostrarTexto">
+    </a>
+    <div id="parrafo">
+      <div id="probando" class="collapse">
+        <p>La creación de esta página web surge de nuestro deseo de compartir nuestra pasión por los
+          videojuegos
+          con otros entusiastas. Aquí encontrarás información detallada sobre los últimos lanzamientos,
+          noticias relevantes de la industria y reseñas de juegos exclusivos en diferentes consolas.
+          <br><br>
+          Nuestro objetivo es proporcionar a los visitantes una fuente confiable de información sobre videojuegos
+          y ayudarles a tomar decisiones informadas sobre sus compras y experiencias de juego.
+        </p>
+      </div>
     </div>
-    <p class="parrafo">La creación de esta página web surge de nuestro deseo de compartir nuestra pasión por los videojuegos
-      con otros entusiastas. Aquí encontrarás información detallada sobre los últimos lanzamientos, 
-      noticias relevantes de la industria y reseñas de juegos exclusivos en diferentes consolas.
-      <br><br> 
-      Nuestro objetivo es proporcionar a los visitantes una fuente confiable de información sobre videojuegos
-      y ayudarles a tomar decisiones informadas sobre sus compras y experiencias de juego.
-      </p>
-      <div class="contacte">CONTACTE CON NOSOTROS</div>
-      <img class = "soporte" src="../img/logo5.png" height="70px" width="70px">
-      <div class="correo">cuevagaming@info.com</div>
-      <div class="numero">+34 666 666 666</div>
-      <div class="redessociales">REDES SOCIALES</div>
-      <img class="instagram" src="../img/logo6.png" height="65px" width="65px">
-      <img class="twitter" src="../img/logo7.png" height="65px" width="65px">
-      <img class="tiktok" src="../img/logo8.png" height="66px" width="66px">
-      <label class="ventajas">VENTAJAS DE ESTAR SUSCRITO</label>
-      <p class="parrafo2">Recibiras notificaciones: Te mantendremos actualizados con notificaciones por correo electrónico</p>
-      <p class="parrafo3">Participación en sorteos y concursos: Organizamos sorteos y concursos para vosotros,
-         donde puedan ganar juegos, consolas u otros premios relacionados con los videojuegos.</p>
-      <p class="parrafo4">Acceso anticipado a información: Proporcionamos a los suscriptores información exclusiva y acceso 
-         anticipado a anuncios de juegos, fechas de lanzamiento y actualizaciones importantes antes de que se hagan
-         públicas en nuestro sitio web.</p>
-      <p class="parrafo5">Comunidad exclusiva: Tendremos una comunidad exclusiva donde solo los suscriptores puedan interactuar entre
-         ellos, discutir juegos y compartir experiencias.</p>
-      <p class="parrafo6">Consultas y Asesoramiento Personalizado: Proporcionamos sesiones de asesoramiento o consultas personalizadas
-         con expertos en videojuegos para ayudar a los suscriptores a mejorar sus habilidades o tomar decisiones.</p>
- 
+    <div class="contacte">CONTACTE CON NOSOTROS</div>
+    <img class="soporte" src="../img/logo5.png" height="70px" width="70px">
+    <div class="correo">cuevagaming@info.com</div>
+    <div class="numero">+34 666 666 666</div>
+    <div class="redessociales">REDES SOCIALES</div>
+    <img class="instagram" src="../img/logo6.png" height="65px" width="65px">
+    <img class="twitter" src="../img/logo7.png" height="65px" width="65px">
+    <img class="tiktok" src="../img/logo8.png" height="66px" width="66px">
+    <label class="ventajas">VENTAJAS DE ESTAR SUSCRITO</label>
+    <p class="parrafo2">Recibiras notificaciones: Te mantendremos actualizados con notificaciones por correo electrónico
+    </p>
+    <p class="parrafo3">Participación en sorteos y concursos: Organizamos sorteos y concursos para vosotros,
+      donde puedan ganar juegos, consolas u otros premios relacionados con los videojuegos.</p>
+    <p class="parrafo4">Acceso anticipado a información: Proporcionamos a los suscriptores información exclusiva y
+      acceso
+      anticipado a anuncios de juegos, fechas de lanzamiento y actualizaciones importantes antes de que se hagan
+      públicas en nuestro sitio web.</p>
+    <p class="parrafo5">Comunidad exclusiva: Tendremos una comunidad exclusiva donde solo los suscriptores puedan
+      interactuar entre
+      ellos, discutir juegos y compartir experiencias.</p>
+    <p class="parrafo6">Consultas y Asesoramiento Personalizado: Proporcionamos sesiones de asesoramiento o consultas
+      personalizadas
+      con expertos en videojuegos para ayudar a los suscriptores a mejorar sus habilidades o tomar decisiones.</p>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+      </script>
 </body>
+
 </html>

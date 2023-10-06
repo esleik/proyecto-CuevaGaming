@@ -5,13 +5,13 @@
 .letraEspecial {
 
     font: 100% sans-serif;
-    color: aliceblue;
+    color: black;
 
 }
 
 .letraEspecialN{
     font: 100% sans-serif;
-    color: #191919;
+    color: black;
 }
 
 .logo {
@@ -39,7 +39,7 @@
 }
 body{
     
-    background: radial-gradient(#DFE1E0, #5B5D5C);
+    background: radial-gradient( #FEF790, #fff349);
 
 }
 .suscribete {
@@ -51,9 +51,8 @@ body{
     left: 5%;
 }
 .suscribeteencuevagaming{
-    font-size: 24px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     position: absolute;
     top: 30%;
@@ -78,49 +77,46 @@ body{
 }
 .email{
     position: absolute;
-    -webkit-text-stroke: 1px black;
     color: black;
     top: 37%;
-    left: 8%;
+    left: 10%;
     font-size: 24px;
 }
 
 .textoemail{
     position: absolute;
     top: 43%;
-    left: 10%;
+    left: 12%;
     margin-left: -30px;
     width: 250px;
     height: 30px;
 }
 .usuario{
     position: absolute;
-    -webkit-text-stroke: 1px black;
     color: black;
     top: 47%;
-    left: 8%;
+    left: 10%;
     font-size: 24px;
 }
 .textousuario{
     position: absolute;
     top: 53%;
-    left: 10%;
+    left: 12%;
     margin-left: -30px;
     width: 250px;
     height: 30px;
 }
 .contraseña{
     position: absolute;
-    -webkit-text-stroke: 1px black;
     color: black;
     top: 57%;
-    left: 8%;
+    left: 10%;
     font-size: 24px;
 }
 .textocontraseña{
     position: absolute;
     top: 63%;
-    left: 10%;
+    left: 12%;
     margin-left: -30px;
     width: 250px;
     height: 30px;
@@ -128,28 +124,27 @@ body{
 .boton{
     position: absolute;
     top: 70%;
-    left: 10%;
+    left: 12%;
     margin-left: 120px;
     width: 100px;
     height: 30px;
 }
 .sobrenosotros{
-    font-size: 24px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     position: absolute;
-    top: 32%;
-    left: 65%;
+    top: 29%;
+    left: 71%;
 }
 .creadopor{
     font-size: 24px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Acme', sans-serif;
     font-weight: bold;
     color: black;
     position: absolute;
-    top: 37%;
-    left: 58%;
+    top: 35%;
+    left: 66%;
 }
 .segundalinea{
     background-color: black;
@@ -162,14 +157,15 @@ body{
 }
 .flecha{
     position: absolute;
-    top: 43%;
-    left: 69.5%;
+    top: 41%;
+    left: 76%;
 }
 .parrafo{
+    font-weight: 600;
     position: absolute;
-    top: 58%;
-    left: 56%;
-    width: 35%;
+    top: 51%;
+    left: 64%;
+    width: 30%;
     color: black;
 
 }
@@ -178,15 +174,15 @@ body{
     height: 2px;
     border: none;
     width: 100%;
-    margin-top: 190px;
+    margin-top: 170px;
     margin-left: 0px;
     opacity: 100%;
 }
 .contacte{
     position: absolute;
-    top: 97%;
+    top: 95%;
     left: 10.5%;
-    margin-left: -30px;
+    margin-left: 200px;
     width: 250px;
     height: 30px;
     font-size: 24px;
@@ -195,29 +191,29 @@ body{
 }
 .soporte{
     position: absolute;
-    top: 104%;
+    top: 102%;
     left: 10.5%;
-    margin-left: -30px;
+    margin-left: 200px;
 }
 .correo{
     position: absolute;
-    top: 104%;
+    top: 102%;
     left: 10.5%;
-    margin-left: 60px;
+    margin-left: 290px;
     font-size: 20px;
 }
 .numero{
     position: absolute;
-    top: 109%;
+    top: 107%;
     left: 10.5%;
-    margin-left: 60px;
+    margin-left: 290px;
     font-size: 20px;
 }
 .redessociales{
     position: absolute;
-    top: 97%;
+    top: 95%;
     left: 10.5%;
-    margin-left: 810px;
+    margin-left: 710px;
     width: 250px;
     height: 30px;
     font-size: 24px;
@@ -226,19 +222,78 @@ body{
 }
 .instagram{
     position: absolute;
-    top: 105%;
+    top: 103%;
     left: 10.5%;
-    margin-left: 740px;
+    margin-left: 640px;
 }
 .twitter{
     position: absolute;
-    top: 105%;
+    top: 103%;
     left: 10.5%;
-    margin-left: 850px;
+    margin-left: 750px;
 }
 .tiktok{
     position: absolute;
-    top: 105%;
+    top: 103%;
     left: 10.5%;
-    margin-left: 960px;
+    margin-left: 860px;
+}
+.ventajas{
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(9, 255, 0);
+    top: 37%;
+    left: 34%;
+    font-size: 24px;
+}
+.parrafo2{
+    font-size: 13px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 43%;
+    left: 34%;
+    width: 27%;
+}
+.parrafo3{
+    font-size: 13px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 49%;
+    left: 34%;
+    width: 27%;
+}
+.parrafo4{
+    font-size: 13px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 58%;
+    left: 34%;
+    width: 27%;
+}
+.parrafo5{
+    font-size: 13px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 69%;
+    left: 34%;
+    width: 27%;
+}
+.parrafo6{
+    font-size: 13px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    top: 78%;
+    left: 34%;
+    width: 27%;
 }

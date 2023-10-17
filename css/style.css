@@ -83,3 +83,58 @@ body{
     text-decoration: none;
     color: aliceblue;
 }
+
+.imgPortIndie{
+
+    height: 33rem;
+    width: 202%;
+    opacity: 0.6;
+}
+
+.contenedor{
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.centrado{
+
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+
+}
+
+.centrarIndie{
+
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font: 300% sans-serif;
+    color: aliceblue;
+
+}
+
+.centrarP{
+
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font: 170% sans-serif;
+    color: aliceblue;
+}
+
+.imgIndie{
+
+    position: absolute;
+    top: 51%;
+    left: 138%;
+    transform: translate(-50%, -50%);
+    width: 60rem;
+    height: 32rem;
+}

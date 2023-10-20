@@ -1,15 +1,21 @@
 
 .letraEspecial {
 
-    font: 110% sans-serif;
-    color: aliceblue;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(239, 237, 222));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(234, 226, 189);  
+    font: 111% sans-serif;
 
 }
 
 .letraEspecialsolo{
 
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(224, 220, 195);  
     font: 200% sans-serif;
-    color: aliceblue;
 }
 
 .letraEspecialN{
@@ -63,27 +69,36 @@
     border-radius: 3%;
     margin-top: 10%;
     margin-bottom: 5%;
-    margin-left: 100px;
     opacity: 95%;
     filter: contrast(90%);
     
 }
 
+
+/*colo de fondo modifica el body*/
 body{
     
-    background: radial-gradient(#4e4f4e, #5B5D5C);
+    background: linear-gradient(to bottom right, rgb(34, 34, 34), rgb(41, 40, 41));
 }
 
+
+/*coloca detras de las imagenes juegos un efecto de sombra*/
 .element {
-    box-shadow: 5px 5px #242424;
+    box-shadow: 5px 5px #080808;
   }
 
+
+/*quita el hipervinculo*/
 .quitaHyper{
 
     text-decoration: none;
-    color: aliceblue;
 }
 
+
+
+/*apartado de juegos indies*/
+
+/*imagen de fondo*/
 .imgPortIndie{
 
     height: 33rem;
@@ -91,6 +106,7 @@ body{
     opacity: 0.6;
 }
 
+/*contenedor de la imagen de fondo*/
 .contenedor{
 
     position: relative;
@@ -99,42 +115,55 @@ body{
 
 }
 
+/*posición del boton*/
 .centrado{
 
     position: absolute;
     top: 75%;
-    left: 45%;
+    left: 25%;
     transform: translate(-50%, -50%);
 
 }
 
+/*centramos el titulo*/
 .centrarIndie{
 
     position: absolute;
-    top: 28%;
-    left: 45%;
+    top: 20%;
+    left: 25%;
     transform: translate(-50%, -50%);
     font: 300% sans-serif;
     color: aliceblue;
 
 }
 
+/*centramos el parrafo*/
 .centrarP{
 
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 25%;
     transform: translate(-50%, -50%);
-    font: 170% sans-serif;
+    font: 150% sans-serif;
     color: aliceblue;
 }
 
+
+/*posicionamos la imagen dentro del contenedor*/
 .imgIndie{
 
     position: absolute;
     top: 51%;
-    left: 138%;
+    left: 69%;
     transform: translate(-50%, -50%);
-    width: 60rem;
+    width: 55rem;
     height: 32rem;
+}
+
+/*la letra del boton*/
+.letraBoton{
+    background: -webkit-linear-gradient(rgb(236, 236, 131),rgb(210, 207, 207));
+    color: rgb(61, 60, 60);  
+    font: 200% sans-serif;
+
 }

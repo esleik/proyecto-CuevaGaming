@@ -4,8 +4,9 @@
 
 .letraEspecial {
 
-    font: 100% sans-serif;
+    font: 111% sans-serif;
     color: black;
+    
 
 }
 .quitaHyper{
@@ -16,7 +17,7 @@
 }
 
 .letraEspecialN{
-    font: 100% sans-serif;
+    font: 111% sans-serif;
     color: black;
 }
 
@@ -47,7 +48,7 @@
 }
 body{
     
-    background:#fff176;
+    background:#f3e880;
     margin-bottom: 745px;
 }
 .suscribete {

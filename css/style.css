@@ -1,4 +1,4 @@
-
+/*cambia el color y tamaño de algunos p y h*/
 .letraEspecial {
 
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(239, 237, 222));
@@ -9,6 +9,7 @@
 
 }
 
+/*cambia el color y tamaño de algunos p y h*/
 .letraEspecialsolo{
 
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));

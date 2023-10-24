@@ -27,11 +27,11 @@
 }
 
 .menu {
-    max-width: 1100px;
+    max-width: 900px;
     margin: auto;
     background-color: rgb(77, 37, 78);
     font-size: 20px;
-    margin-top: 10px;
+  
     
 }
 
@@ -52,6 +52,7 @@
 
 .menu-horizontal li:hover {
     background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 .menu-horizontal li:hover .menu-vertical {
@@ -63,6 +64,11 @@
     list-style: none;
     position: absolute;
     background-color: rgb(72, 27, 72);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+   width:220px ;
+    height: auto;
 }
 
 .menu-vertical li:hover {
@@ -71,7 +77,6 @@
 
 .menu-vertical li a {
     display: block;
-   
     padding: 15px 20px;
     text-decoration: none;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(239, 237, 222));
@@ -119,14 +124,17 @@
 .item img {
     width: 650px;
     height: 450px;
-    padding: 40px;
+    padding: 5px;
+    border: 5px solid;
+    border-radius: 15px ;
+    color: #46453b;
 }
 
 .text-container {
     text-align: right;
     color: wheat;
     width: 40%;
-    padding: 20px;
+    padding: 60px;
 }
 
 h3 {
@@ -136,3 +144,4 @@ h3 {
 p{
     text-align: left;
 }
+

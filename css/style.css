@@ -1,3 +1,15 @@
+  /* Establece la altura específica en pantallas grandes */
+  .navbar {
+    height: 130px; /* Ajusta la altura según tus necesidades */
+  }
+
+  /* Ajusta la altura en pantallas más pequeñas utilizando una media query */
+  @media (max-width: 576px) {
+    .navbar {
+      height: 340px; /* Cambia la altura para pantallas más pequeñas (móvil) */
+    }
+  }
+
 /*cambia el color y tamaño de algunos p y h*/
 .letraEspecial {
 
@@ -25,9 +37,10 @@
 }
 
 .logo {
-    height: 160px;
-    width: 340px;
+    height: 150px;
+    width: 350px;
 }
+
 
 .black {
     background: linear-gradient(to bottom right,#191919, #303030);
@@ -61,14 +74,15 @@
     width: 300px;
     height: 580px;
     opacity: 85%;
+    opacity: 0.8;
 }
 
 .tamañoImagen{
 
-    width: 480px;
-    height: 250px;
+    width: 380px;
+    height: 190px;
     border-radius: 3%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
     opacity: 95%;
     filter: contrast(90%);
@@ -103,7 +117,6 @@ body{
 .imgPortIndie{
 
     height: 33rem;
-    width: 202%;
     opacity: 0.6;
 }
 
@@ -111,9 +124,8 @@ body{
 .contenedor{
 
     position: relative;
-    display: inline-block;
     text-align: center;
-
+    padding: 0;
 }
 
 /*posición del boton*/
@@ -168,3 +180,9 @@ body{
     font: 200% sans-serif;
 
 }
+
+.Cambiohr {
+    border: none;
+    border-top: 4px solid rgb(215, 226, 91); /* Cambia el color y grosor */
+    margin: 0px 0; /* Agrega margen superior e inferior */
+  }

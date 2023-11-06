@@ -33,7 +33,7 @@
 .menu {
     max-width: 1300px;
     margin: auto;
-    background-color: rgb(77, 37, 78);
+    background: linear-gradient(to bottom right,#191919, #303030);
     font-size: 20px;
   
     
@@ -67,7 +67,7 @@
     display: none;
     list-style: none;
     position: absolute;
-    background-color: rgb(72, 27, 72);
+    background: linear-gradient(to bottom right,#191919, #303030);
     text-align: center;
     padding: 0;
     margin: 0;
@@ -120,14 +120,14 @@
 
 .item {
     display: flex;
-    justify-content: center;
+    justify-content:left;
     align-items: center;
     margin-bottom: 50px;
 }
 
 .item img {
-    width: 650px;
-    height: 450px;
+    width: 450px;
+    height: 250px;
     padding: 5px;
     border: 5px solid;
     border-radius: 15px ;
@@ -135,9 +135,9 @@
 }
 
 .text-container {
-    text-align: right;
+    text-align: left;
     color: wheat;
-    width: 40%;
+    width: 35%;
     padding: 60px;
 }
 

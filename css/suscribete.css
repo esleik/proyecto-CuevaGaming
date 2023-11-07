@@ -64,21 +64,21 @@ body{
     margin-bottom: 300px;
 }
 .suscribete {
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Noto Serif', serif;
     color: black;
     position: absolute;
-    top: 20.5%;
-    left: 5%;
+    top: 27%;
+    left: 4%;
 }
 
 .primeralinea {
     background-color: black;
     height: 4px;
     border-radius: 5px;
-    width: 81%;
+    width: 70%;
     margin-top: 110px;
-    margin-left: 247px;
+    margin-left: 290px;
     opacity: 100%;
 }
 .imagensub{
@@ -92,98 +92,97 @@ body{
     position: absolute;
     color: black;
     font-weight: bold;
-    top: 37%;
+    top: 38%;
     left: 10%;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .textoemail{
     position: absolute;
-    top: 43%;
+    top: 44%;
     left: 12%;
     margin-left: -30px;
-    width: 260px;
-    height: 35px;
+    width: 240px;
+    height: 32px;
 }
 .usuario{
     position: absolute;
     color: black;
     font-weight: bold;
-    top: 50%;
+    top: 51%;
     left: 10%;
-    font-size: 25px;
+    font-size: 23px;
 }
 .textousuario{
     position: absolute;
-    top: 56%;
+    top: 57%;
     left: 12%;
     margin-left: -30px;
-    width: 260px;
-    height: 35px;
+    width: 240px;
+    height: 32px;
 }
 .contraseña{
     position: absolute;
     color: black;
     font-weight: bold;
-    top: 63%;
+    top: 64%;
     left: 10%;
-    font-size: 25px;
+    font-size: 23px;
 }
 .textocontraseña{
     position: absolute;
-    top: 69%;
+    top: 70%;
     left: 12%;
     margin-left: -30px;
-    width: 260px;
-    height: 35px;
+    width: 240px;
+    height: 32px;
 }
 .boton{
     position: absolute;
-    top: 77%;
+    top: 78%;
     left: 12%;
     margin-left: -30px;
-    width: 170px;
+    width: 140px;
     height: 45px;
     font-size: 14px;
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #202020;
+    color: #FFFF7F;
     font-weight: bold;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .boton:hover{
-    background-color: #45a049;
-    font-size: 15px;
-    font-weight: bold;
+    background-color: rgb(22, 22, 22);
+    transform: scale(1.01);
 }
 .boton:active{
-    background-color: #3e8e41;
+    background-color: rgb(29, 28, 28);
 }
 .sobrenosotros{
-    font-size: 40px;
+    font-size: 37px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     position: absolute;
     top: 50%;
-    left: 69.2%;
+    left: 68.1%;
     transition: 0.5s;
 }
 .segundalinea{
     background-color: black;
     height: 4px;
     border-radius: 5px;
-    width: 80%;
+    width: 79.1%;
     top: 90%;
-    margin-left: 0px;
+    margin-left: 77px;
     opacity: 100%;
     position: absolute;
 }
 .flecha{
     position: absolute;
     top: 59%;
-    left: 76%;
+    left: 75%;
     cursor: pointer;
     transition: 0.6s;
 }
@@ -192,51 +191,51 @@ body{
 
 .contacte{
     position: absolute;
-    top: 96%;
+    top: 94%;
     left: 10.5%;
     margin-left: 200px;
     width: 350px;
     height: 30px;
-    font-size: 32px;
+    font-size: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
 }
 .soporte{
     position: absolute;
-    top: 103%;
+    top: 102%;
     left: 10.5%;
     margin-left: 200px;
 }
 .correo{
     position: absolute;
-    top: 103%;
+    top: 102%;
     left: 10.5%;
     margin-left: 290px;
     font-size: 20px;
 }
 .numero{
     position: absolute;
-    top: 108%;
+    top: 107%;
     left: 10.5%;
     margin-left: 290px;
     font-size: 20px;
 }
 .redessociales{
     position: absolute;
-    top: 96%;
+    top: 94%;
     left: 9.5%;
     margin-left: 698px;
     width: 300px;
     height: 30px;
-    font-size: 32px;
+    font-size: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
 }
 .instagram{
     position: absolute;
-    top: 104%;
-    left: 10.5%;
-    margin-left: 640px;
+    top: 102%;
+    left: 12%;
+    margin-left: 630px;
 }
 .instagram:hover {
     transform: scale(1.1);
@@ -249,29 +248,29 @@ body{
 }
 .twitter{
     position: absolute;
-    top: 104%;
+    top: 102%;
     left: 10.5%;
     margin-left: 750px;
 }
 .tiktok{
     position: absolute;
-    top: 104%;
-    left: 10.5%;
-    margin-left: 860px;
+    top: 102%;
+    left: 9%;
+    margin-left: 870px;
 }
 .ventajas{
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     position: absolute;
     color: rgb(17, 54, 16);
-    top: 35%;
-    left: 34%;
-    font-size: 30px;
+    top: 37%;
+    left: 32%;
+    font-size: 27px;
 }
 .imgVentajas{
     position: absolute;
-    top: 34%;
-    left: 59.5%;
+    top: 36%;
+    left: 57.5%;
 }
 .banderas{
     width: 100%;
@@ -280,75 +279,75 @@ body{
 .chile{
     position: absolute;
     top: 52%;
-    left: 65%;
+    left: 63.5%;
 }
 .rusia{
     position: absolute;
-    top: 64%;
-    left: 65%;
+    top: 65%;
+    left: 63.5%;
 }
 .marruecos{
     position: absolute;
-    top: 76.5%;
-    left: 65%;
+    top: 78%;
+    left: 63.5%;
 }
 .parrafo2{
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     position: absolute;
     color: black;
-    top: 42%;
-    left: 34%;
+    top: 44%;
+    left: 32%;
     width: 28%;
 }
 .parrafo3{
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     position: absolute;
     color: black;
-    top: 49%;
-    left: 34%;
+    top: 51%;
+    left: 32%;
     width: 28%;
 }
 .parrafo4{
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     position: absolute;
     color: black;
-    top: 56%;
-    left: 34%;
+    top: 58%;
+    left: 32%;
     width: 28%;
 }
 .parrafo5{
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     position: absolute;
     color: black;
-    top: 63%;
-    left: 34%;
+    top: 65%;
+    left: 32%;
     width: 28%;
 }
 .parrafo6{
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     position: absolute;
     color: black;
-    top: 70%;
-    left: 34%;
+    top: 72%;
+    left: 32%;
     width: 28%;
 }
 .collapse{
     width: 20%;
 }
 #probando {
-    margin-top: 195px;
-    margin-left: 960px;
-    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 910px;
+    font-size: 17px;
     font-family: 'Acme', sans-serif;
     font-weight: bold;
     color: black;
@@ -357,7 +356,7 @@ body{
     transition: max-height 0.05s ease, opacity 0.6s ease, transform 0.6s ease;
     transform: translateY(200px);
     opacity: 0;
-    width: 25%;
+    width: 23%;
 }
 #probando.show {
     max-height: 500px;
@@ -370,7 +369,16 @@ body{
     .suscribete {
       font-size: 35px;
       margin-top: -25px;
-      margin-left: -30px;
+      margin-left: -10px;
+    }
+    .email{
+        margin-left: -15px;
+    }
+    .contraseña{
+        margin-left: -15px;
+    }
+    .usuario{
+        margin-left: -15px;
     }
     .ventajas{
         margin-left: 90px;
@@ -464,29 +472,31 @@ body{
         margin-left: -235px;
     }
     .chile{
-        margin-top: 500px;
+        margin-top: 520px;
         margin-left: -350px;
         width: 40px;
         height: 40px;
     }
     .rusia{
-        margin-top: 500px;
+        margin-top: 510px;
         margin-left: -350px;
         width: 40px;
         height: 40px;
     }
     .marruecos{
-        margin-top: 500px;
+        margin-top: 490px;
         margin-left: -350px;
         width: 40px;
         height: 40px;
     }
     #probando {
-        margin-top: 820px;
+        margin-top: 790px;
         margin-left: 220px;
         width: 50%;
     }
     .primeralinea{
+        margin-top: 145px;
+        margin-left: 250px;
         width: 65%;
     }
 }
@@ -495,73 +505,82 @@ body{
     /* Estilos específicos para pantallas más pequeñas */
     .suscribete {
       font-size: 30px;
-      margin-top: 15px;
+      margin-top: 150px;
       margin-left: -10px;
     }
     .primeralinea{
         width: 45%;
         margin-left: 200px;
+        margin-top: 60px;
     }
     .email{
         margin-left: 20px;
+        margin-top: 150px;
     }
     .textoemail{
         margin-left: 20px;
+        margin-top: 150px;
     }
     .usuario{
         margin-left: 20px;
+        margin-top: 150px;
     }
     .textousuario{
         margin-left: 20px;
+        margin-top: 150px;
     }
     .contraseña{
         margin-left: 20px;
+        margin-top: 150px;
     }
     .textocontraseña{
         margin-left: 20px;
+        margin-top: 150px;
     }
     .boton{
         margin-left: 20px;
+        margin-top: 150px;
     }
     .ventajas{
-        margin-top: 530px;
-        margin-left: -100px
+        margin-top: 650px;
+        margin-left: -100px;
     }
     .imgVentajas{
-        margin-top: 575px;
-        margin-left: -70px
+        margin-top: 700px;
+        margin-left: -70px;
     }
     .parrafo2{
-        margin-top: 580px;
-        margin-left: -60px
+        margin-top: 730px;
+        margin-left: -60px;
     }
     .parrafo3{
-        margin-top: 570px;
-        margin-left: -60px
+        margin-top: 720px;
+        margin-left: -60px;
     }
     .parrafo4{
-        margin-top: 590px;
-        margin-left: -60px
+        margin-top: 740px;
+        margin-left: -60px;
     }
     .parrafo5{
-        margin-top: 605px;
-        margin-left: -60px
+        margin-top: 755px;
+        margin-left: -60px;
     }
     .parrafo6{
-        margin-top: 620px;
-        margin-left: -60px
+        margin-top: 770px;
+        margin-left: -60px;
     }
     .sobrenosotros{
-        margin-top: 1100px;
+        margin-top: 1230px;
         margin-left: -195px;
     }
     .flecha{
-        margin-top: 1100px;
-        margin-left: -135px;
+        margin-top: 1230px;
+        margin-left: -130px;
     }
     .segundalinea{
             margin-top: 1300px;
-            width: 93%;
+            margin-left: 0px;
+            width: 93.5%;
     }
     .contacte{
         margin-top: 1280px;
@@ -608,27 +627,27 @@ body{
         font-size: 13px;
     }
     .chile{
-        margin-top: 1150px;
-        margin-left: -200px;
+        margin-top: 1260px;
+        margin-left: -210px;
         width: 50px;
         height: 50px;
     }
     .rusia{
-        margin-top: 1180px;
-        margin-left: -200px;
+        margin-top: 1280px;
+        margin-left: -210px;
         width: 50px;
         height: 50px;
     }
     .marruecos{
-        margin-top: 1210px;
-        margin-left: -200px;
+        margin-top: 1290px;
+        margin-left: -210px;
         width: 50px;
         height: 50px;
     }
     #probando {
-        margin-top: 1350px;
-        margin-left: 110px;
+        margin-top: 1275px;
+        margin-left: 100px;
         width: 60%;
-        font-size: 17px;
+        font-size: 16px;
     }
 }

@@ -15,8 +15,8 @@ var movida = false; // Variable de estado
                 Sobrenosotros.style.top = '50%';
             } else {
                 // Si no se ha movido, se mueve hacia arriba
-                var posicionFlecha2 = posicionFlecha - 155;
-                var posicionSobrenosotros2 = posicionSobrenosotros - 155;
+                var posicionFlecha2 = posicionFlecha - 135;
+                var posicionSobrenosotros2 = posicionSobrenosotros - 135;
                 Flecha.style.top = posicionFlecha2 + 'px';
                 Sobrenosotros.style.top = posicionSobrenosotros2 + 'px';
             }

@@ -71,8 +71,8 @@
 
     <!--categorias-->
     <div class="container-relative my-3">
-      <div class="d-flex flex-row mb-3">
-        <div class="p-2 mx-2" style="text-align: right;">
+      <div class="d-md-flex d-xs-block flex-row mb-3">
+        <div class="p-2 mx-2 text-md-right">
           <strong class="letraEspecialsolo">Categorias</strong>
         </div>
         <div class="p-2">
@@ -89,18 +89,19 @@
           <select class="letraEspecial" id="select-categoria">
             <option value="todos">Todos</option>
             <option value="nintendo">Nintendo</option>
-            <option value="Xbox">xbox</option>
-            <option value="PlayStation">ps5</option>
+            <option value="Xbox">Xbox</option>
+            <option value="PlayStation">PS5</option>
           </select>
         </div>
-        <div class="p-2 my-2 mx-5">
-          <h3 class="letraEspecial" id="titulo-todos">Los juegos mas actuales</h3>
-          <h3 class="letraEspecial" id="titulo-nintendo">Los juegos de Nintendo mas actuales</h3>
-          <h3 class="letraEspecial" id="titulo-xbox">Los juegos de Xbox mas actuales</h3>
-          <h3 class="letraEspecial" id="titulo-ps5">Los juegos de PS5 mas actuales</h3>
-      </div>
+        <div class="p-1 my-1 mx-5 px-5 letraEspecial">
+          <h3 id="titulo-todos">Los juegos mas actuales</h3>
+          <h3 id="titulo-nintendo">Los juegos de Nintendo mas actuales</h3>
+          <h3 id="titulo-xbox">Los juegos de Xbox mas actuales</h3>
+          <h3 id="titulo-ps5">Los juegos de PS5 mas actuales</h3>
+        </div>
       </div>
     </div>
+    
   
     <!-- Contenedor para juegos -->
     <div class="container" id="contenedor-juegos">
@@ -130,22 +131,26 @@
       </div>
       <div class="col-12 col-lg-6 col-md-12">
         <div class="imgIndie-container">
-          <button type="button" class="btn centrado letraBoton btn-outline-warning">Detalles</button>
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn centrado letraBoton btn-outline-warning">Detalles</button>
           <img class="imgIndie img-fluid" src="../img/imgJuegos/SeaOfStarts.png" alt="Sea of Stars">
         </div>
       </div>
     </div>
   </div>
-  
-  
-  
-  
-  
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body black">
+      <h1 class="letraEspecial">Esto tendra 3 juegos indies mas exitosos en el mundo</h1>
+    </div>
+  </div>  
   
   
   <!--pie de pagina-->
   <div class="container-fluid black">
-
+    <div class="row">
+      <div class="col-12">
+        <h1 class="letraEspecial">Pie de pagina</h1>
+      </div>
+    </div>
   </div>
 
 

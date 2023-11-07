@@ -209,7 +209,7 @@ body{
   }
   
   .modal-content {
-    background-color: #fff;
+    background: -webkit-linear-gradient(rgb(236, 236, 131),rgb(210, 207, 207));
     border: 1px solid #ccc;
     position: relative;
     margin: 15% auto;

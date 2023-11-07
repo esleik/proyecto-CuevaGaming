@@ -236,8 +236,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
    
 
-
-
     // JavaScript para el modal
     const modal = document.getElementById('gameModal');
     const closeModal = document.getElementById('closeModal');

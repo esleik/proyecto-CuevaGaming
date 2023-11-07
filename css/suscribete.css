@@ -1,3 +1,15 @@
+  /* Establece la altura específica en pantallas grandes */
+  .navbar {
+    height: 130px; /* Ajusta la altura según tus necesidades */
+  }
+
+  /* Ajusta la altura en pantallas más pequeñas utilizando una media query */
+  @media (max-width: 576px) {
+    .navbar {
+      height: 340px; /* Cambia la altura para pantallas más pequeñas (móvil) */
+    }
+  }
+
 .black {
     background: linear-gradient(to bottom right,#191919, #303030);
 }
@@ -334,7 +346,7 @@ body{
     width: 20%;
 }
 #probando {
-    margin-top: 220px;
+    margin-top: 195px;
     margin-left: 960px;
     font-size: 18px;
     font-family: 'Acme', sans-serif;

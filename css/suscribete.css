@@ -1,6 +1,6 @@
   /* Establece la altura específica en pantallas grandes */
   .navbar {
-    height: 130px; /* Ajusta la altura según tus necesidades */
+    height: 110px; /* Ajusta la altura según tus necesidades */
   }
 
   /* Ajusta la altura en pantallas más pequeñas utilizando una media query */
@@ -76,9 +76,9 @@ body{
     background-color: black;
     height: 4px;
     border-radius: 5px;
-    width: 70%;
-    margin-top: 110px;
-    margin-left: 290px;
+    width: 71%;
+    margin-top: 128px;
+    margin-left: 280px;
     opacity: 100%;
 }
 .imagensub{

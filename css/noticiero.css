@@ -131,11 +131,7 @@
     color: #46453b;
 }
 
-.text-container {
-    text-align: left;
-    color: wheat;
-    padding: 20px;
-}
+
 
 h3 {
     margin-bottom: 20px;
@@ -147,20 +143,94 @@ p {
 }
 
 .centrar {
-    text-align: center;
+    
     font-size: 35px;
     color: white;
     -webkit-text-stroke: 2px black;
     font-weight: bolder;
 }
+.col-12,
+.col-md-4,
+.col-lg-3 {
+    padding: 15px;
+}
 
-.trozo {
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    color: wheat;
+    padding: 20px;
+}
+
+.trucosimg{
+    max-width: 150% ;
+    height: auto;
+    border: 5px solid;
+    border-radius: 15px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+.modal li{
+    text-align: left;
+    padding: 20px;
     margin-top: 20px;
 }
-.ite{
-    width: 30%;
-    margin-bottom: 50px;
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.container-fluid {
+    width: 100%;
+   
+}
+
+.trozo {
+    margin-top: 20rem;
+}
+
+@media (min-width: 576px) {
+    .container-fluid {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-fluid {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        max-width: 1140px;
+    }
 }

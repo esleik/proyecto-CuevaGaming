@@ -1,6 +1,6 @@
   /* Establece la altura específica en pantallas grandes */
   .navbar {
-    height: 130px; /* Ajusta la altura según tus necesidades */
+    height: 110px; /* Ajusta la altura según tus necesidades */
   }
 
   /* Ajusta la altura en pantallas más pequeñas utilizando una media query */
@@ -115,14 +115,12 @@ body{
 
 /*imagen de fondo*/
 .imgPortIndie{
-
     height: 33rem;
     opacity: 0.6;
 }
 
 /*contenedor de la imagen de fondo*/
 .contenedor{
-
     position: relative;
     text-align: center;
     padding: 0;
@@ -130,29 +128,24 @@ body{
 
 /*posición del boton*/
 .centrado{
-
     position: absolute;
     top: 75%;
     left: 25%;
     transform: translate(-50%, -50%);
-
 }
 
 /*centramos el titulo*/
 .centrarIndie{
-
     position: absolute;
     top: 20%;
     left: 25%;
     transform: translate(-50%, -50%);
     font: 300% sans-serif;
     color: aliceblue;
-
 }
 
 /*centramos el parrafo*/
 .centrarP{
-
     position: absolute;
     top: 50%;
     left: 25%;
@@ -161,10 +154,8 @@ body{
     color: aliceblue;
 }
 
-
 /*posicionamos la imagen dentro del contenedor*/
 .imgIndie{
-
     position: absolute;
     top: 51%;
     left: 69%;
@@ -178,11 +169,73 @@ body{
     background: -webkit-linear-gradient(rgb(236, 236, 131),rgb(210, 207, 207));
     color: rgb(61, 60, 60);  
     font: 200% sans-serif;
-
 }
 
 .Cambiohr {
     border: none;
     border-top: 4px solid rgb(215, 226, 91); /* Cambia el color y grosor */
     margin: 0px 0; /* Agrega margen superior e inferior */
+}
+
+@media (max-width: 768px) {
+    .imgIndie {
+        top: 100%; /* Mueve la imagen debajo de todo el contenido */
+        left: 50%; /* Centra horizontalmente */
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .centrarIndie, .centrarP, .letraBoton {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+}
+
+
+/* Agrega estilos CSS para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+    margin: 15% auto;
+    padding: 20px;
+    width: 70%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }

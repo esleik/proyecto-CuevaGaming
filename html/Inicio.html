@@ -7,15 +7,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/Inicio.css">
-  <script src="../js/java.js"></script>
+  <script src="../js/inicio.js"></script>
 </head>
 
 <body>
   <hr class="Cambiohr">
   <!-- navegador con Logo, Inicio, Noticias y Sobre nosotros-->
 <nav class="navbar  d-flex black" style="align-content: center;">
-  <div class="col-12 col-md-5 col-lg-2 p-2 px-4 ">
-    <a href="../html/index.html">
+  <div class="col-12 col-md-5 col-lg-2 px-4 ">
+    <a href="../html/Inicio.html">
       <img class="logo" src="../img/logo1 (1).svg">
     </a>
   </div>
@@ -69,94 +69,53 @@
   <!--separador cambiarlo-->
 <hr class="Cambiohr">
 
-  <!--novedades-->
-  <div class="container-relative my-3">
-    <div class="d-flex flex-row mb-3">
-      <div class="p-2 mx-2" style="text-align: right;">
-        <strong class="letraEspecialsolo">Categorias</strong>
+    <!--categorias-->
+    <div class="container-relative my-3">
+      <div class="d-flex flex-row mb-3">
+        <div class="p-2 mx-2" style="text-align: right;">
+          <strong class="letraEspecialsolo">Categorias</strong>
+        </div>
+        <div class="p-2">
+          <a href="" class="">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
+              height="42" viewBox="0 0 24 24" stroke-width="5" stroke-height="5" stroke="burlywood" fill="none"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M9 6l6 6l-6 6"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="p-2 my-2">
+          <select class="letraEspecial" id="select-categoria">
+            <option value="todos">Todos</option>
+            <option value="nintendo">Nintendo</option>
+            <option value="Xbox">xbox</option>
+            <option value="PlayStation">ps5</option>
+          </select>
+        </div>
+        <div class="p-2 my-2 mx-5">
+          <h3 class="letraEspecial" id="titulo-todos">Los juegos mas actuales</h3>
+          <h3 class="letraEspecial" id="titulo-nintendo">Los juegos mas de Nintendo</h3>
+          <h3 class="letraEspecial" id="titulo-xbox">Los juegos mas de Xbox</h3>
+          <h3 class="letraEspecial" id="titulo-ps5">Los juegos mas de PS5</h3>
       </div>
-      <div class="p-2">
-        <a href="" class="">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
-            height="42" viewBox="0 0 24 24" stroke-width="5" stroke-height="5" stroke="burlywood" fill="none"
-            stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M9 6l6 6l-6 6"></path>
-          </svg>
-        </a>
-      </div>
-      <div class="p-2 my-2">
-        <select class="letraEspecial">
-          <option>Nintendo</option>
-          <option>XBOX</option>
-          <option>PS5</option>
-        </select>
       </div>
     </div>
-  </div>
+  
+    <!-- Contenedor para juegos -->
+    <div class="container" id="contenedor-juegos">
+      <!-- Aquí se mostrarán los juegos -->
+    </div>
 
-
-  <!--imagenes de juegos con información-->
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/pokemonEscarlataDLC.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong> Pokemon Escarlata/Purpura DLC</strong></p>
+    <div id="gameModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <div class="video-container" id="modalVideo">
+          <!-- Aquí se mostrará el video de YouTube -->
         </div>
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/GTA5.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong>Grand Theft Auto V</strong></p>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/Spiderman.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong> Spider-Man Miles Morales</strong></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/zelda.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong>The Legend of Zelda: Tears of the Kingdom</strong></p>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/CallOfDuty.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong> Call Of Duty Modern Warfare 2</strong></p>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/atomic.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong> Atomic Heart</strong></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/FarCry6.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong> Far Cry 6</strong></p>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/onepieceOdyssey.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong> One Piece Odyssey</strong></p>
-        </div>
-        <div class="col-12 col-md-4 col-lg-4 text-center">
-          <a href="">
-            <img src="../img/imgJuegos/HaloInfinite.jpg" class="tamañoImagen element">
-          </a>
-          <p class="letraEspecial text-center"><strong> Hallo Infinite</strong></p>
-        </div>
+        <p id="modalDescription"></p>
+        <p id="modalPrice"></p>
       </div>
     </div>
 
@@ -165,18 +124,24 @@
   <div class="container-fluid black contenedor">
     <img src="../img/imgJuegos/Portada-Gaming-Indie.jpg" class="imgPortIndie img-fluid d-block w-100" alt="Imagen Indie">
     <div class="row">
-      <div class="col-12">
+      <div class="col-lg-12">
         <h5 class="centrarIndie"><strong>Top juegos Indies</strong></h5>
         <p class="centrarP">Descubre todo sobre los Juegos Indies más famosos del mundo,<br>no te los pierdas! Noticias, Precios y donde encontrarlos</p>
       </div>
-      <div class="col-12">
-        <img class="imgIndie img-fluid" src="../img/imgJuegos/SeaOfStarts.png" alt="Sea of Stars">
-      </div>
-      <div class="col-12">
-        <button type="button" class="btn centrado letraBoton btn-outline-warning">Detalles</button>
+      <div class="col-12 col-lg-6 col-md-12">
+        <div class="imgIndie-container">
+          <button type="button" class="btn centrado letraBoton btn-outline-warning">Detalles</button>
+          <img class="imgIndie img-fluid" src="../img/imgJuegos/SeaOfStarts.png" alt="Sea of Stars">
+        </div>
       </div>
     </div>
   </div>
+  
+  
+  
+  
+  
+  
   
   <!--pie de pagina-->
   <div class="container-fluid black">

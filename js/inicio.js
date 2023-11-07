@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "zelda.jpg",
             "precio": "0",
             "compania": "nintendo",
-            "novedad": "si"
+            "novedad": "si",
+            "video":"https://www.youtube.com/embed/gp9aY09li1s",
+            "descripcion": "un juego"
         },
         {
             "id": 5,
@@ -42,7 +44,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "CallOfDuty.jpg",
             "precio": "0",
             "compania": "Xbox",
-            "novedad": "no"
+            "novedad": "no",
+            "video":"https://www.youtube.com/embed/ztjfwecrY8E",
+            "descripcion": "un juego"
         },
         {
             "id": 6,
@@ -50,7 +54,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "atomic.jpg",
             "precio": "0",
             "compania": "Xbox",
-            "novedad": "no"
+            "novedad": "no",
+            "video":"https://www.youtube.com/embed/_tEgeZrOOHM",
+            "descripcion": "un juego"
         },
         {
             "id": 7,
@@ -58,7 +64,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "FarCry6.jpg",
             "precio": "0",
             "compania": "PlayStation",
-            "novedad": "no"
+            "novedad": "no",
+            "video":"https://www.youtube.com/embed/JUgQCnJj-Xc",
+            "descripcion": "un juego"
         },
         {
             "id": 8,
@@ -66,7 +74,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "onepieceOdyssey.jpg",
             "precio": "0",
             "compania": "nintendo",
-            "novedad": "si"
+            "novedad": "si",
+            "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+            "descripcion": "un juego"
         },
         {
             "id": 9,
@@ -74,7 +84,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "onepieceOdyssey.jpg",
             "precio": "0",
             "compania": "Xbox",
-            "novedad": "no"
+            "novedad": "no",
+            "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+            "descripcion": "un juego"
         },
         {
             "id": 10,
@@ -82,7 +94,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "onepieceOdyssey.jpg",
             "precio": "0",
             "compania": "PlayStation",
-            "novedad": "no"
+            "novedad": "no",
+            "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+            "descripcion": "un juego"
         },
         {
             "id": 11,
@@ -90,7 +104,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "HaloInfinite.jpg",
             "precio": "0",
             "compania": "Xbox",
-            "novedad": "si"
+            "novedad": "si",
+            "video":"https://www.youtube.com/embed/QORZtiws6Sk",
+            "descripcion": "un juego"
         },
         {
             "id": 12,
@@ -98,7 +114,9 @@ document.addEventListener('DOMContentLoaded', function () {
             "imagen": "arkSurvivalAscended.jpg",
             "precio": "0",
             "compania": "PlayStation",
-            "novedad": "si"
+            "novedad": "si",
+            "video":"https://www.youtube.com/embed/0gLODoXanog",
+            "descripcion": "un juego"
         }
     ];
 

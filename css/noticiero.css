@@ -120,6 +120,7 @@
 .item {
     width: 45%;
     margin-bottom: 50px;
+    padding: 40px;
 }
 
 .trozos img {
@@ -133,11 +134,6 @@
 
 
 
-h3 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 p {
     text-align: left;
 }
@@ -149,31 +145,18 @@ p {
     -webkit-text-stroke: 2px black;
     font-weight: bolder;
 }
-.col-12,
-.col-md-4,
-.col-lg-3 {
-    padding: 15px;
-}
 
-
-h3 {
-    margin-bottom: 20px;
+.title{
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(239, 237, 222));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+    font-style: italic;
+    font-weight: bold;
     text-align: center;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: wheat;
-    padding: 20px;
-}
-
-.trucosimg{
-    max-width: 150% ;
-    height: auto;
-    border: 5px solid;
-    border-radius: 15px;
+    font-size: 70px;
+    margin: auto;
+   
 }
 
 .modal {
@@ -202,35 +185,28 @@ h3 {
     border: 1px solid #888;
     width: 80%;
 }
-.container-fluid {
-    width: 100%;
-   
-}
+.trucosimg{
 
-.trozo {
-    margin-top: 20rem;
+    border: 5px solid;
+    border-radius: 15px;
+    color: #46453b;
+    width: 90%;
 }
-
-@media (min-width: 576px) {
-    .container-fluid {
-        max-width: 540px;
-    }
+.flores h3{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
-
-@media (min-width: 768px) {
-    .container-fluid {
-        max-width: 720px;
-    }
+.text-container{
+    color: wheat;
+    text-align: center;
 }
-
-@media (min-width: 992px) {
-    .container-fluid {
-        max-width: 960px;
-    }
+.text-container h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
-
-@media (min-width: 1200px) {
-    .container-fluid {
-        max-width: 1140px;
-    }
+.text-container p {
+    font-size: 20px;
 }

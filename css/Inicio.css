@@ -39,6 +39,7 @@
 .logo {
     height: 150px;
     width: 350px;
+    margin-top: 10px;
 }
 
 
@@ -73,8 +74,8 @@
 
     width: 300px;
     height: 580px;
-    opacity: 85%;
-    opacity: 0.8;
+    opacity: 70%;
+
 }
 
 .tamañoImagen{
@@ -144,6 +145,13 @@ body{
     color: aliceblue;
 }
 
+select{
+    width: 160px;
+    height: 30px;
+    border:2px solid rgb(211, 171, 70);
+    border-radius: 12px;
+}
+
 /*centramos el parrafo*/
 .centrarP{
     position: absolute;
@@ -167,7 +175,7 @@ body{
 /*la letra del boton*/
 .letraBoton{
     background: -webkit-linear-gradient(rgb(236, 236, 131),rgb(210, 207, 207));
-    color: rgb(61, 60, 60);  
+    color: rgb(50, 49, 49);  
     font: 200% sans-serif;
 }
 

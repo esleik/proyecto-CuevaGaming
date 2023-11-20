@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pokemon Escarlata/Purpura DLC",
+        "imagen": "pokemonEscarlataDLC.jpg",
+        "precio": "57.13",
+        "compania": "nintendo",
+        "novedad": "si",
+        "video": "https://www.youtube.com/embed/N9DE1fJABPo",
+        "descripcion": "Pokemon Escarlata/Purpura DLC es un emocionante juego de aventuras de la franquicia Pokémon que te sumerge en un colorido mundo lleno de misterio y desafíos. En esta expansión, los jugadores pueden explorar nuevas regiones, capturar criaturas únicas y embarcarse en emocionantes batallas para convertirse en un auténtico Maestro Pokémon. ¡Prepárate para vivir una aventura inolvidable en el emocionante universo de Pokémon!"
+    },
+    {
+        "id": 2,
+        "nombre": "Grand Theft Auto V",
+        "imagen": "GTA5.jpg",
+        "precio": "0",
+        "compania": "PlayStation",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/QkkoHAzjnUs",
+        "descripcion":"el juego"
+    },
+    {
+        "id": 3,
+        "nombre": "Spider-Man Miles Morales",
+        "imagen": "Spiderman.jpg",
+        "precio": "0",
+        "compania": "PlayStation",
+        "novedad": "si",
+        "video": "https://www.youtube.com/embed/Q3kfF3XNzw8",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 4,
+        "nombre": "The Legend of Zelda: Tears of the Kingdom",
+        "imagen": "zelda.jpg",
+        "precio": "0",
+        "compania": "nintendo",
+        "novedad": "si",
+        "video":"https://www.youtube.com/embed/gp9aY09li1s",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 5,
+        "nombre": "Call Of Duty Modern Warfare 2",
+        "imagen": "CallOfDuty.jpg",
+        "precio": "0",
+        "compania": "Xbox",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/ztjfwecrY8E",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 6,
+        "nombre": "Atomic Heart",
+        "imagen": "atomic.jpg",
+        "precio": "0",
+        "compania": "Xbox",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/_tEgeZrOOHM",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 7,
+        "nombre": "Far Cry 6",
+        "imagen": "FarCry6.jpg",
+        "precio": "0",
+        "compania": "PlayStation",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/JUgQCnJj-Xc",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 8,
+        "nombre": "One Piece Odyssey",
+        "imagen": "onepieceOdyssey.jpg",
+        "precio": "0",
+        "compania": "nintendo",
+        "novedad": "si",
+        "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 9,
+        "nombre": "One Piece Odyssey",
+        "imagen": "onepieceOdyssey.jpg",
+        "precio": "0",
+        "compania": "Xbox",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 10,
+        "nombre": "One Piece Odyssey",
+        "imagen": "onepieceOdyssey.jpg",
+        "precio": "0",
+        "compania": "PlayStation",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 11,
+        "nombre": "Halo Infinite",
+        "imagen": "HaloInfinite.jpg",
+        "precio": "0",
+        "compania": "Xbox",
+        "novedad": "si",
+        "video":"https://www.youtube.com/embed/QORZtiws6Sk",
+        "descripcion": "un juego"
+    },
+    {
+        "id": 12,
+        "nombre": "Ark: Survival Ascended",
+        "imagen": "arkSurvivalAscended.jpg",
+        "precio": "0",
+        "compania": "PlayStation",
+        "novedad": "si",
+        "video":"https://www.youtube.com/embed/0gLODoXanog",
+        "descripcion": "un juego"
+    }
+]

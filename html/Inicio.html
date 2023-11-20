@@ -14,12 +14,12 @@
   <hr class="Cambiohr">
   <!-- navegador con Logo, Inicio, Noticias y Sobre nosotros-->
 <nav class="navbar  d-flex black" style="align-content: center;">
-  <div class="col-12 col-md-5 col-lg-2 px-4 ">
+  <div class="col-12 col-md-5 col-lg-2 px-4">
     <a href="../html/Inicio.html">
       <img class="logo" src="../img/logo1 (1).svg">
     </a>
   </div>
-  <div class="col-12 col-md-1 col-lg-2 text-center p-2 flex-fill mx-4">
+  <div class="col-12 col-md-1 col-lg-2 text-center p-2 flex-fill">
     <a class="quitaHyper letraEspecial" href="../html/Inicio.html"><strong>Inicio</strong></a>
   </div>
   <div class="col-12 col-md-1 text-center col-lg-2 p-2 flex-fill">
@@ -37,6 +37,11 @@
   <!--indice de la pagina carousel-->
   <div class="container-relative" style="background-color: rgba(0, 0, 0, 0.6);">
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="6000">
           <img src="../img/imgJuegos/MarioKartDeluxe.jpg" class="d-block w-100 TamImagenCarousel" alt="...">
@@ -48,7 +53,7 @@
         <div class="carousel-item" data-bs-interval="7000">
           <img src="../img/imgJuegos/starfield.jpg" class="d-block w-100 TamImagenCarousel" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h3>StarFiels</h3>
+            <h3>StarField</h3>
             <p class="h5"><strong class="h3 text-danger">NEW: </strong> Descubre los requisitos para disfrutar de este
               juego</p>
           </div>
@@ -72,39 +77,37 @@
     <!--categorias-->
     <div class="container-relative my-3">
       <div class="d-md-flex d-xs-block flex-row mb-3">
-        <div class="p-2 mx-2 text-md-right">
+        <div class="p-2 mx-2 my-1 text-md-right">
           <strong class="letraEspecialsolo">Categorias</strong>
         </div>
-        <div class="p-2">
-          <a href="" class="">
+        <div class="p-2 my-1">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="24"
               height="42" viewBox="0 0 24 24" stroke-width="5" stroke-height="5" stroke="burlywood" fill="none"
               stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M9 6l6 6l-6 6"></path>
             </svg>
-          </a>
         </div>
         <div class="p-2 my-2">
-          <select class="letraEspecial" id="select-categoria">
+          <select class="letraEspecial text-center" id="select-categoria">
             <option value="todos">Todos</option>
             <option value="nintendo">Nintendo</option>
             <option value="Xbox">Xbox</option>
             <option value="PlayStation">PS5</option>
           </select>
         </div>
-        <div class="p-1 my-1 mx-5 px-5 letraEspecial">
-          <h3 id="titulo-todos">Los juegos mas actuales</h3>
-          <h3 id="titulo-nintendo">Los juegos de Nintendo mas actuales</h3>
-          <h3 id="titulo-xbox">Los juegos de Xbox mas actuales</h3>
-          <h3 id="titulo-ps5">Los juegos de PS5 mas actuales</h3>
-        </div>
       </div>
     </div>
-    
+    <div class="p-1 my-1 mx-5 px-5 letraEspecial text-center">
+      <h3 id="titulo-todos">Los juegos mas actuales</h3>
+      <h3 id="titulo-nintendo">Los juegos de Nintendo mas actuales</h3>
+      <h3 id="titulo-xbox">Los juegos de Xbox mas actuales</h3>
+      <h3 id="titulo-ps5">Los juegos de PS5 mas actuales</h3>
+    </div>
   
     <!-- Contenedor para juegos -->
     <div class="container" id="contenedor-juegos">
+      
       <!-- Aquí se mostrarán los juegos -->
     </div>
 

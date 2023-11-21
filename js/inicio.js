@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             element.addEventListener('click', function () {
                 const juegoId = element.getAttribute('data-id');
                 const juego = juegos.find(j => j.id.toString() === juegoId);
-                openModal(juego);
+                openModalInicio(juego);
             });
         });
     }
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const modalDescription = document.getElementById('modalDescription');
     const modalPrice = document.getElementById('modalPrice');
 
-    function openModal(juego) {
+    function openModalInicio(juego) {
         modalTitle.textContent = juego.nombre;
         modalVideo.innerHTML = `<iframe width="560" height="315" src="${juego.video}" frameborder="0" allowfullscreen></iframe>`;
         modalDescription.textContent = juego.descripcion;
@@ -146,17 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (event.target == modal) {
             modal.style.display = 'none';
         }
-    });
-
-    const juegosElementos = document.querySelectorAll('.contenedor');
-    juegosElementos.forEach((element) => {
-        element.addEventListener('click', function () {
-            const juegoId = element.getAttribute('data-id'); 
-            const juego = juegos.find(j => j.id.toString() === juegoId);
-            openModal(juego); 
-        });
-    });
-    
+    });  
 })
 .catch((error) => console.error('Error al cargar los datos:', error));
 

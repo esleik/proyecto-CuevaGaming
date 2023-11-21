@@ -21,6 +21,7 @@
     
 
 }
+
 .quitaHyper{
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
     -webkit-background-clip: text;
@@ -60,27 +61,149 @@
 }
 body{
     
-    background:#ffff7f;
+    background: -webkit-linear-gradient(rgb(38, 37, 38), rgb(37, 37, 37));
+
     margin-bottom: 300px;
 }
 .suscribete {
-    font-size: 40px;
+    font-size: 55px;
     font-family: 'Noto Serif', serif;
-    color: black;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
     position: absolute;
-    top: 27%;
-    left: 4%;
+    top: 19.3%;
+    left: 5%;
 }
 
-.primeralinea {
-    background-color: black;
-    height: 4px;
+  
+  h2{
+    padding:40px;
+    font-weight:lighter;
+    text-transform:uppercase;
+    color:#414141;
+  }
+  
+  .wrapper, .wrapper h1, .wrapper .input-box, .input-box input, .input-box input::placeholder, .input-box i, .wrapper .remember-forgot, .remember-forgot label input, .remember-forgot a, .remember-forgot a:hover, .wrapper .btn, .wrapper .register-link, .register-link p a, .register-link p a:hover{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .wrapper{
+    margin-top: -470px;
+    margin-left: 125px;
+    width: 391px;
+    height: 470px;
+    backdrop-filter: blur(20px);
+    color: white;
     border-radius: 5px;
-    width: 71%;
-    margin-top: 128px;
-    margin-left: 280px;
+    padding: 30px 40px;
+  }
+  .wrapper h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
+  .wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+  }
+  .input-box input{ 
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid;
+    border-image: -webkit-linear-gradient(rgb(211, 171, 70), rgb(231, 230, 223)) 1;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input::placeholder{
+    color: #fff;
+
+  }
+  .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    
+  }
+  .wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+  .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  .wrapper .btn {
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  .wrapper .btn:hover {
+    background: #e0e0e0;
+  }
+  .wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  .register-link p a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
+
+.primeralinea {
+    height: 6px;
+    border-radius: 5px;
+    width: 66%;
+    margin-top: 79px;
+    margin-left: 390px;
     opacity: 100%;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+
+
 }
+
+
+
 .imagensub{
     position: absolute;
     top: 28%;
@@ -88,59 +211,153 @@ body{
     margin-left: 470px;
     width: 5%;
 }
-.email{
-    position: absolute;
-    color: black;
-    font-weight: bold;
-    top: 38%;
-    left: 10%;
-    font-size: 23px;
-}
 
-.textoemail{
-    position: absolute;
-    top: 44%;
-    left: 12%;
-    margin-left: -30px;
-    width: 240px;
-    height: 32px;
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --card-height: 60vh;
+    --card-width: calc(var(--card-height) / 1.2);
+  }
+
+.card1 {
+    margin-top: 80px;
+    margin-left: 125px;
+    background: linear-gradient(to bottom, #464646, #111111);
+
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  font-family: cursive;
 }
-.usuario{
+.card1::before {
+    content: "";
+    width: 104%;
+    height: 103%;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--rotate), rgb(211, 171, 70), rgb(231, 230, 223) 43%, rgb(211, 171, 70));
     position: absolute;
-    color: black;
-    font-weight: bold;
-    top: 51%;
-    left: 10%;
-    font-size: 23px;
-}
-.textousuario{
+    z-index: -1;
+    top: -1.3%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  .card1::after {
     position: absolute;
-    top: 57%;
-    left: 12%;
-    margin-left: -30px;
-    width: 240px;
-    height: 32px;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(var(--rotate), rgb(211, 171, 70), rgb(231, 230, 223) 43%, rgb(211, 171, 70));
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  
+  @property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  .card2 {
+    --card-height: 48vh;
+    --card-width: calc(var(--card-height) / 0.84);
+  }
+
+.card2 {
+    margin-top: -420px;
+    margin-left: 715px;
+    background: linear-gradient(to bottom, #383838, #161616);
+
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  font-family: cursive;
 }
-.contraseña{
+.card2:before {
+    content: "";
+    width: 103%;
+    height: 103%;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--rotate), rgb(211, 171, 70), rgb(231, 230, 223) 43%, rgb(211, 171, 70));
     position: absolute;
-    color: black;
-    font-weight: bold;
-    top: 64%;
-    left: 10%;
-    font-size: 23px;
-}
-.textocontraseña{
+    z-index: -1;
+    top: -1.3%;
+    left: -1.5%;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  .card2:after {
     position: absolute;
-    top: 70%;
-    left: 12%;
-    margin-left: -30px;
-    width: 240px;
-    height: 32px;
-}
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(var(--rotate), rgb(211, 171, 70), rgb(231, 230, 223) 43%, rgb(211, 171, 70));
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  
 .boton{
     position: absolute;
     top: 78%;
-    left: 12%;
+    left: 32%;
     margin-left: -30px;
     width: 140px;
     height: 45px;
@@ -160,29 +377,104 @@ body{
 .boton:active{
     background-color: rgb(29, 28, 28);
 }
+
 .sobrenosotros{
-    font-size: 37px;
+    font-size: 60px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
+    background: -webkit-linear-gradient(rgb(255, 220, 132), rgb(233, 232, 228));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
     position: absolute;
-    top: 50%;
-    left: 68.1%;
+    top: 130%;
+    left: 33%;
     transition: 0.5s;
 }
+.flechamaxim{
+    position: absolute;
+    top: 164%;
+    left: 33%;
+}
+.especialidad2{
+    position: absolute;
+    top: 172%;
+    left: 24.8%;
+    color: white;
+    font-size: 20px;
+}
+
+.nombremaxim{
+    position: absolute;
+    font-weight: bold;
+    top: 161%;
+    left: 21%;
+    width: 20%;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.flechaalejandro{
+    position: absolute;
+    top: 143.5%;
+    left: 33%;
+}
+.especialidad{
+    position: absolute;
+    top: 151%;
+    left: 19.9%;
+    color: white;
+    font-size: 20px;
+}
+.nombrealejandro{
+    position: absolute;
+    font-weight: bold;
+    top: 140%;
+    left: 16.4%;
+    width: 20%;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.flechaismail{
+    position: absolute;
+    top: 184%;
+    left: 33%;
+}
+.especialidad3{
+    position: absolute;
+    top: 192%;
+    left: 22.7%;
+    color: white;
+    font-size: 20px;
+}
+.nombreismail{
+    position: absolute;
+    font-weight: bold;
+    top: 181%;
+    left: 20.8%;
+    width: 20%;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
 .segundalinea{
-    background-color: black;
-    height: 4px;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    height: 6px;
     border-radius: 5px;
-    width: 79.1%;
-    top: 90%;
-    margin-left: 77px;
+    width: 82.5%;
+    top: 210%;
+    margin-left: 70px;
     opacity: 100%;
     position: absolute;
 }
 .flecha{
     position: absolute;
-    top: 59%;
-    left: 75%;
+    top: 145%;
+    left: 44.2%;
     cursor: pointer;
     transition: 0.6s;
 }
@@ -191,172 +483,269 @@ body{
 
 .contacte{
     position: absolute;
-    top: 94%;
+    top: 215%;
     left: 10.5%;
     margin-left: 200px;
     width: 350px;
     height: 30px;
-    font-size: 30px;
+    font-size: 27px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
 }
 .soporte{
     position: absolute;
-    top: 102%;
+    top: 221%;
     left: 10.5%;
     margin-left: 200px;
 }
 .correo{
     position: absolute;
-    top: 102%;
+    top: 222%;
     left: 10.5%;
-    margin-left: 290px;
-    font-size: 20px;
+    margin-left: 280px;
+    font-size: 18px;
+    color: white;
 }
 .numero{
     position: absolute;
-    top: 107%;
+    top: 227%;
     left: 10.5%;
-    margin-left: 290px;
-    font-size: 20px;
+    margin-left: 280px;
+    font-size: 18px;
+    color: white;
 }
 .redessociales{
     position: absolute;
-    top: 94%;
-    left: 9.5%;
+    top: 215%;
+    left: 13.5%;
     margin-left: 698px;
     width: 300px;
     height: 30px;
-    font-size: 30px;
+    font-size: 27px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
 }
 .instagram{
     position: absolute;
-    top: 102%;
-    left: 12%;
+    top: 222%;
+    left: 15.5%;
     margin-left: 630px;
 }
 .instagram:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 .twitter:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 .tiktok:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 .twitter{
     position: absolute;
-    top: 102%;
-    left: 10.5%;
+    top: 222.5%;
+    left: 13.6%;
     margin-left: 750px;
 }
 .tiktok{
     position: absolute;
-    top: 102%;
-    left: 9%;
+    top: 222.3%;
+    left: 11.3%;
     margin-left: 870px;
 }
 .ventajas{
     font-family: 'Acme', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     position: absolute;
-    color: rgb(17, 54, 16);
-    top: 37%;
-    left: 32%;
+    color: rgb(102, 253, 97);
+    top: 45%;
+    left: 56.5%;
     font-size: 27px;
+    animation: increaseFontSize 1.4s linear infinite;
+}
+@keyframes increaseFontSize {
+    0% {
+        font-size: 26px; /* Tamaño de fuente inicial */
+    }
+    50% {
+        font-size: 27px; /* Tamaño de fuente en la mitad de la animación */
+    }
+    100% {
+        font-size: 26px; /* Tamaño de fuente al final de la animación (vuelve al tamaño original) */
+    }
 }
 .imgVentajas{
     position: absolute;
-    top: 36%;
-    left: 57.5%;
+    top: 44.3%;
+    left: 81.5%;
 }
 .banderas{
     width: 100%;
     display: none;
 }
+.participantes{
+    display: none;
+}
 .chile{
     position: absolute;
-    top: 52%;
-    left: 63.5%;
+    top: 145.9%;
+    left: 16.5%;
 }
 .rusia{
     position: absolute;
-    top: 65%;
-    left: 63.5%;
+    top: 167%;
+    left: 21%;
 }
 .marruecos{
     position: absolute;
-    top: 78%;
-    left: 63.5%;
+    top: 186.9%;
+    left: 21%;
 }
-.parrafo2{
-    font-size: 23px;
+.parrafo2 {
+    font-size: 22px;
     font-family: 'Acme', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     position: absolute;
-    color: black;
-    top: 44%;
-    left: 32%;
+    color: white;
+    top: 52.5%;
+    left: 57%;
     width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 2s forwards;
 }
-.parrafo3{
-    font-size: 23px;
+
+.parrafo3 {
+    font-size: 22px;
     font-family: 'Acme', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     position: absolute;
-    color: black;
-    top: 51%;
-    left: 32%;
+    color: white;
+    top: 59.5%;
+    left: 57%;
     width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 3s forwards;
 }
-.parrafo4{
-    font-size: 23px;
+
+.parrafo4 {
+    font-size: 22px;
     font-family: 'Acme', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     position: absolute;
-    color: black;
-    top: 58%;
-    left: 32%;
+    color: white;
+    top: 66.5%;
+    left: 57%;
     width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 4s forwards;
 }
-.parrafo5{
-    font-size: 23px;
+
+.parrafo5 {
+    font-size: 22px;
     font-family: 'Acme', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     position: absolute;
-    color: black;
-    top: 65%;
-    left: 32%;
+    color: white;
+    top: 73.5%;
+    left: 57%;
     width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 5s forwards;
 }
-.parrafo6{
-    font-size: 23px;
+
+.parrafo6 {
+    font-size: 22px;
     font-family: 'Acme', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     position: absolute;
-    color: black;
-    top: 72%;
-    left: 32%;
+    color: white;
+    top: 80.5%;
+    left: 57%;
     width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 6s forwards;
 }
+
+
+@keyframes fadeInDelay {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.tick{
+    margin-top: -290px;
+    margin-left: 970px;
+    opacity: 0;
+    animation: fadeInDelay 2s forwards;
+    position: absolute;
+}
+.tick2{
+    margin-top: -235px;
+    margin-left: 1065px;
+    opacity: 0;
+    animation: fadeInDelay 3s forwards;
+    position: absolute;
+}
+.tick3{
+    margin-top: -180px;
+    margin-left: 1045px;
+    opacity: 0;
+    animation: fadeInDelay 4s forwards;
+    position: absolute;
+}
+.tick4{
+    margin-top: -125px;
+    margin-left: 1075px;
+    opacity: 0;
+    animation: fadeInDelay 5s forwards;
+    position: absolute;
+}
+.tick5{
+    margin-top: -70px;
+    margin-left: 1113px;
+    opacity: 0;
+    animation: fadeInDelay 6s forwards;
+    position: absolute;
+}
+.lineavertical {
+    top: 28%;
+    height: 69%;
+    left: 47.5%;
+    position: absolute;
+    width: 9px; /* Ancho de la línea vertical */
+    background-image: -webkit-linear-gradient(rgb(211, 171, 70), rgb(231, 230, 223)); /* Aplicar gradiente como fondo */
+    border-radius: 50%; /* Hacer los bordes redondeados */
+    border: 1.5px solid black; /* Agregar un borde de 2px de ancho y color verde */
+}
+
+.no-pointerevents .form-3 p:nth-child(1):before {
+    display: none;
+}
+
 .collapse{
     width: 20%;
 }
 #probando {
-    margin-top: 150px;
-    margin-left: 910px;
-    font-size: 17px;
+    margin-top: 430px;
+    margin-left: 535px;
+    font-size: 15px;
     font-family: 'Acme', sans-serif;
-    font-weight: bold;
-    color: black;
+    font-weight: lighter;
+    color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.05s ease, opacity 0.6s ease, transform 0.6s ease;
-    transform: translateY(200px);
+    transform: translateY(300px);
     opacity: 0;
-    width: 23%;
+    width: 40%;
 }
 #probando.show {
     max-height: 500px;
@@ -371,15 +760,7 @@ body{
       margin-top: -25px;
       margin-left: -10px;
     }
-    .email{
-        margin-left: -15px;
-    }
-    .contraseña{
-        margin-left: -15px;
-    }
-    .usuario{
-        margin-left: -15px;
-    }
+
     .ventajas{
         margin-left: 90px;
         font-size: 25px;
@@ -512,30 +893,6 @@ body{
         width: 45%;
         margin-left: 200px;
         margin-top: 60px;
-    }
-    .email{
-        margin-left: 20px;
-        margin-top: 150px;
-    }
-    .textoemail{
-        margin-left: 20px;
-        margin-top: 150px;
-    }
-    .usuario{
-        margin-left: 20px;
-        margin-top: 150px;
-    }
-    .textousuario{
-        margin-left: 20px;
-        margin-top: 150px;
-    }
-    .contraseña{
-        margin-left: 20px;
-        margin-top: 150px;
-    }
-    .textocontraseña{
-        margin-left: 20px;
-        margin-top: 150px;
     }
     .boton{
         margin-left: 20px;

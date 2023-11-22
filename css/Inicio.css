@@ -8,7 +8,7 @@
   /* Ajusta la altura en pantallas más pequeñas utilizando una media query */
   @media (max-width: 576px) {
       .navbar {
-          height: 340px;
+          height: 210px;
           /* Cambia la altura para pantallas más pequeñas (móvil) */
       }
 
@@ -44,9 +44,9 @@
   }
 
   .logo {
-      height: 150px;
+      height: 90px;
       width: 350px;
-      margin-top: 10px;
+      
   }
 
   .logoX {
@@ -192,7 +192,7 @@
 
   .Cambiohr {
       border: none;
-      border-top: 4px solid rgb(215, 226, 91);
+      border-top: 4px solid rgb(226, 217, 91);
       /* Cambia el color y grosor */
       margin: 0px 0;
       /* Agrega margen superior e inferior */

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../css/Inicio.css">
   <script src="../js/inicio.js"></script>
   <script src="../js/indie.js"></script>
+  <script src="../js/suscribete.js"></script>
 </head>
 
 <body>
@@ -133,8 +134,8 @@
       <div class="col-12 col-lg-6 col-md-12">
         <div class="imgIndie-container">
           <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample" class="btn centrado letraBoton btn-outline-warning"
-            id="btnMostrarIndie">Detalles</button>
+          aria-controls="collapseExample" class="btn centrado letraBoton btn-outline-warning"
+          id="btnMostrarIndie" onclick="handleCollapseClick()">Detalles</button>        
           <img class="imgIndie img-fluid" src="../img/imgJuegos/SeaOfStarts.png" alt="Sea of Stars">
         </div>
       </div>
@@ -147,57 +148,52 @@
     </div>
   </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="indieModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Detalles del Juego Indie</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div id="indieVideoContainer" class="embed-responsive embed-responsive-16by9"></div>
-          <p id="indieDescription"></p>
-          <p id="indiePrice"></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        </div>
+  <div id="gameIndie" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalIndie">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <div class="video-container" id="modalVideoIndie">
+        <!-- Aquí se mostrará el video de YouTube -->
       </div>
+      <p id="modalDescriptionIndie"></p>
+      <p id="modalPriceIndie"></p>
     </div>
   </div>
 
 
-
-  <hr class="Cambiohr">
-  <!--pie de pagina-->
-  <div class="container-fluid black cambio">
-    <div class="row">
-      <div class="col-12 col-md-2 col-lg-2 mx-5"></div>
-      <div class="col-12 col-md-2 col-lg-2 text-center">
-        <img src="../img/logo.png">
-      </div>
-      <div class="col-12 col-md-2 col-lg-2 letraEspecial my-4">
-        <ul>
-          <h3>Contactanos</h3>
-          <li>+34 666 666 666</li>
-          <li>cuevagaming@info.com</li>
-        </ul>
-      </div>
-      <div class="col-12 col-md-2 col-lg-2 letraEspecial my-4">
-        <h3>Redes sociales</h3>
-        <img class="logoX" src="../img/logo14.png">
-        <img class="logoX" src="../img/logo8.png">
-        <img class="logoX" src="../img/logo7.png">
-      </div>
-    </div>
-  </div>
   <hr class="Cambiohr">
 
+<!-- Agrega la clase "hide-on-collapse" a los elementos que deseas ocultar/mostrar -->
+<div class="contacte movable">CONTACTE CON NOSOTROS</div>
+<img class="soporte movable" src="../img/logo20.png" height="75px" width="75px">
+<div class="correo movable">cuevagaming@info.com</div>
+<div class="numero movable">+34 640 802 920</div>
+<div class="redessociales movable">REDES SOCIALES</div>
+<img class="instagram movable" src="../img/logo14.png" height="65px" width="65px" onclick="redirigirAInstagram()">
+<img class="twitter movable" src="../img/logo21.png" height="57px" width="57px" onclick="redirigirATwitter()">
+<img class="tiktok movable" src="../img/logo23.png" height="62px" width="62px" onclick="redirigirATiktok()">
 
+
+
+
+  <hr class="Cambiohr">
+
+  <script>
+document.getElementById('btnMostrarIndie').addEventListener('click', function() {
+  // Obtén los elementos con la clase "movable"
+  var elements = document.querySelectorAll('.movable');
+
+  // Mueve los elementos debajo del área de colapso
+  elements.forEach(function(element) {
+    if (element.classList.contains('hidden')) {
+      element.classList.remove('hidden');
+    } else {
+      element.classList.add('hidden');
+    }
+  });
+});
+  </script>
+  
 
 
 

@@ -126,7 +126,7 @@
         "precio": "0",
         "compania": "Indie",
         "novedad": "no",
-        "video":"",
+        "video":"https://www.youtube.com/embed/Q5XpgTO7YN0",
         "descripcion": "Tunic es un juego de acción-aventura desarrollado por Andrew Shouldice quien es un desarrollador indie Canadiense y publicado por Finji."
     },
     {
@@ -136,7 +136,7 @@
         "precio": "0",
         "compania": "Indie",
         "novedad": "no",
-        "video":"",
+        "video":"https://www.youtube.com/embed/ctX3jVORkkk",
         "descripcion": "Cult of the Lamb es un juego de acción y aventuras y de mazmorras desarrollado por el desarrollador independiente Massive Monster y publicado por Devolver Digital."
     },
     {
@@ -146,7 +146,7 @@
         "precio": "0",
         "compania": "Indie",
         "novedad": "no",
-        "video":"",
+        "video":"https://www.youtube.com/embed/uiV0oo7ZlH8",
         "descripcion": "Rogue Legacy 2 es un juego de plataformas desarrollado y publicado por el estudio indie Cellar Door Games. Es la secuela de Rogue Legacy, de 2013"
     }
 ]

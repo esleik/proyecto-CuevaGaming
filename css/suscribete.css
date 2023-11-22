@@ -93,8 +93,8 @@ body{
   }
   .wrapper{
     margin-top: -470px;
-    margin-left: 125px;
-    width: 391px;
+    margin-left: 158px;
+    width: 350px;
     height: 470px;
     backdrop-filter: blur(20px);
     color: white;
@@ -102,9 +102,8 @@ body{
     padding: 30px 40px;
   }
   .wrapper h1{
-    font-size: 40px;
+    font-size: 33px;
     text-align: center;
-    font-weight: bold;
     font-family: 'Noto Serif', serif;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
     -webkit-background-clip: text;
@@ -119,65 +118,75 @@ body{
 
   }
   .input-box input{ 
-    width: 100%;
+    margin-left: 8px;
+    width: 95%;
     height: 100%;
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid;
-    border-image: -webkit-linear-gradient(rgb(211, 171, 70), rgb(231, 230, 223)) 1;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
+    border-bottom: 2px solid;
+    font-size: 14px;
+    color: wheat;
     padding: 20px 45px 20px 20px;
+    position: absolute;
+  }
+  .input-box input:hover{ 
+    border-color: #6b6b6b;
+    color: wheat;
+  }
+  .input-box input:active{ 
+    border-color: #838282;
+    color: wheat;
+  }
+  .input-box input:focus{ 
+    border-color: #000000;
+    color: wheat;    
   }
   .input-box input::placeholder{
-    color: #fff;
-
+    border-color: #fff;
+    color: wheat;
   }
   .input-box i{
     position: absolute;
     right: 20px;
     top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
+    font-size: 13px;
     
   }
   .wrapper .remember-forgot{
-    display: flex;
-    justify-content: space-around;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
+    width: 90%;
+    font-size: 13px;
+    margin: -10px 15px 15px;
   }
   .remember-forgot label input{
     accent-color: #fff;
     margin-right: 3px;
   }
-  .remember-forgot a {
-    color: #fff;
-    text-decoration: none;
-  }
-  .remember-forgot a:hover {
-    text-decoration: underline;
-  }
+
   .wrapper .btn {
-    width: 50%;
-    height: 45px;
+    width: 30%;
+    height: 40px;
     background: #fff;
     border: none;
     outline: none;
-    border-radius: 40px;
+    border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 13px;
     color: #333;
     font-weight: 600;
+    position: absolute;
   }
   .wrapper .btn:hover {
     background: #e0e0e0;
+    color: #333;
+  }
+  .wrapper .btn:active{
+    background: #cac6c6;
+    color: #333;
   }
   .wrapper .register-link{
-    font-size: 14.5px;
+    font-size: 12px;
     text-align: center;
     margin: 20px 0 15px;
   }
@@ -189,6 +198,20 @@ body{
   .register-link p a:hover{
     text-decoration: underline;
   }
+
+.nombreusuario{
+    margin-top: 10px;
+    margin-left: 225px;
+}
+.correologo{
+    margin-top: -140px;
+    margin-left: 225px;
+}
+.candado{
+    margin-top: 90px;
+    margin-left: 225px;
+}
+
 
 .primeralinea {
     height: 6px;
@@ -221,12 +244,12 @@ body{
   
   :root {
     --card-height: 60vh;
-    --card-width: calc(var(--card-height) / 1.2);
+    --card-width: calc(var(--card-height) / 1.3);
   }
 
 .card1 {
     margin-top: 80px;
-    margin-left: 125px;
+    margin-left: 158px;
     background: linear-gradient(to bottom, #464646, #111111);
 
   width: var(--card-width);
@@ -394,7 +417,7 @@ body{
 .flechamaxim{
     position: absolute;
     top: 164%;
-    left: 33%;
+    left: 34%;
 }
 .especialidad2{
     position: absolute;
@@ -418,7 +441,7 @@ body{
 .flechaalejandro{
     position: absolute;
     top: 143.5%;
-    left: 33%;
+    left: 34%;
 }
 .especialidad{
     position: absolute;
@@ -441,7 +464,7 @@ body{
 .flechaismail{
     position: absolute;
     top: 184%;
-    left: 33%;
+    left: 34%;
 }
 .especialidad3{
     position: absolute;
@@ -720,10 +743,10 @@ body{
     height: 69%;
     left: 47.5%;
     position: absolute;
-    width: 9px; /* Ancho de la línea vertical */
+    width: 8px; /* Ancho de la línea vertical */
     background-image: -webkit-linear-gradient(rgb(211, 171, 70), rgb(231, 230, 223)); /* Aplicar gradiente como fondo */
-    border-radius: 50%; /* Hacer los bordes redondeados */
-    border: 1.5px solid black; /* Agregar un borde de 2px de ancho y color verde */
+    border-radius: 50%;
+    border: 1.5px solid black;
 }
 
 .no-pointerevents .form-3 p:nth-child(1):before {
@@ -734,7 +757,7 @@ body{
     width: 20%;
 }
 #probando {
-    margin-top: 430px;
+    margin-top: 410px;
     margin-left: 535px;
     font-size: 15px;
     font-family: 'Acme', sans-serif;
@@ -885,46 +908,129 @@ body{
 @media (max-width: 390px) {
     /* Estilos específicos para pantallas más pequeñas */
     .suscribete {
-      font-size: 30px;
-      margin-top: 150px;
-      margin-left: -10px;
+      font-size: 25px;
+      margin-top: 190px;
+      margin-left: 20px;
     }
     .primeralinea{
-        width: 45%;
-        margin-left: 200px;
-        margin-top: 60px;
+        width: 40%;
+        margin-left: 210px;
+        margin-top: 30px;
+    }
+    .card1{
+        margin-left: 20px;
+        margin-top: -10px;
+        width: 330px;
+        height: 400px;
+    }
+    .wrapper{
+        width: 85%;
+        margin-top: -400px;
+        height: 10;
+    }
+    .wrapper h1{
+        font-size: 25px;
+    }
+    .card2{
+        margin-left: 18px;
+        --card-height: 48vh;
+        margin-top: 150px;
+        width: 330px;
+    }
+    .parrafo2{
+        font-size: 17px;
+    }
+    .parrafo3{
+        font-size: 17px;
+    }
+    .parrafo4{
+        font-size: 17px;
+    }
+    .parrafo5{
+        font-size: 17px;
+    }
+    .parrafo6{
+        font-size: 17px;
+    }
+    .wrapper{
+        margin-left: 30px;
+    }
+    .nombreusuario{
+        margin-left: 195px;
+    }
+    .candado{
+        margin-left: 195px;
+    }
+    .correologo{
+        margin-left: 195px;
+    }
+    .lineavertical{
+        display: none;
     }
     .boton{
         margin-left: 20px;
         margin-top: 150px;
     }
     .ventajas{
-        margin-top: 650px;
-        margin-left: -100px;
+        margin-top: 655px;
+        margin-left: -90px;
+        width: 50%;
     }
     .imgVentajas{
-        margin-top: 700px;
-        margin-left: -70px;
+        margin-top: 665px;
+        margin-left: -270px;
+        width: 65px;
+        height: 65px;
     }
     .parrafo2{
-        margin-top: 730px;
-        margin-left: -60px;
+        margin-top: 700px;
+        margin-left: -155px;
     }
     .parrafo3{
-        margin-top: 720px;
-        margin-left: -60px;
+        margin-top: 685px;
+        margin-left: -155px;
     }
     .parrafo4{
-        margin-top: 740px;
-        margin-left: -60px;
+        margin-top: 670px;
+        margin-left: -155px;
     }
     .parrafo5{
-        margin-top: 755px;
-        margin-left: -60px;
+        margin-top: 655px;
+        margin-left: -155px;
     }
     .parrafo6{
-        margin-top: 770px;
-        margin-left: -60px;
+        margin-top: 640px;
+        margin-left: -155px;
+    }
+    .tick{
+        margin-top: -265px;
+        margin-left: 205px;
+        width: 40px;
+        height: 40px;
+    }
+    .tick2{
+        margin-top: -265px;
+        margin-left: 295px;
+        width: 40px;
+        height: 40px;
+    }
+    .tick3{
+        margin-top: -265px;
+        margin-left: -150px;
+        width: 40px;
+        height: 40px;
+    }
+    .tick4{
+        margin-top: -265px;
+        margin-left: -150px;
+        width: 40px;
+        height: 40px;
+    }
+    .tick5{
+        margin-top: -265px;
+        margin-left: -300px;
+        width: 40px;
+        height: 40px;
     }
     .sobrenosotros{
         margin-top: 1230px;

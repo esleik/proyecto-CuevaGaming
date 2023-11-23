@@ -12,8 +12,8 @@ var movida = false; // Variable de estado
 
             if (movida) {
                 // Si la flecha ya se movió, vuelve a su posición original
-                Flecha.style.top = '145%';
-                Sobrenosotros.style.top = '130%';
+                Flecha.style.top = '165%';
+                Sobrenosotros.style.top = '150%';
             } else {
                 // Si no se ha movido, se mueve hacia arriba
                 var posicionFlecha2 = posicionFlecha - 180;

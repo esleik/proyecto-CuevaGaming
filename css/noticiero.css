@@ -20,14 +20,23 @@
     
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(239, 237, 222));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-style: italic;
     font-weight: bold;
-    text-align: center;
-    font-size: 60px;
     margin: auto;
-    top: 190px;
+    font-size: 90px;
+    margin-top: 100px;
+    width: 80%;
+    height: 200px;
+}
+.contenedor {
+    position: relative;
+    text-align: center;
+    padding: 0;
 }
 
 .menu {
@@ -50,6 +59,7 @@
     padding: 15px 20px;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(239, 237, 222));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
 }
@@ -85,6 +95,7 @@
     text-decoration: none;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(239, 237, 222));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -114,13 +125,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 450px;
+    margin-top: 150px;
 }
 
 .item {
     width: 45%;
-    margin-bottom: 50px;
-    padding: 40px;
+    padding: 30px;
 }
 
 .trozos img {
@@ -149,6 +159,7 @@ p {
 .title{
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(239, 237, 222));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
  
     font-style: italic;
@@ -176,15 +187,40 @@ p {
     text-align: left;
     padding: 20px;
     margin-top: 20px;
+    
 }
 
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+    height: 600px; 
+    overflow-y: auto;
+    width: 1200px;
+
 }
+.modal-content h1{
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:rgb(124, 124, 169);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+    font-style: italic;
+    font-weight: bold;
+}
+.modal-content li{
+   
+    font-size: 18px;
+    margin-left: 50px;
+}
+.modal-content ul {
+ margin-bottom: 20px;
+}
+.modal-content iframe{
+    margin: auto;
+    border-radius: 5px;
+    border: solid ;
+}
+
 .trucosimg{
 
     border: 5px solid;
@@ -209,4 +245,12 @@ p {
 }
 .text-container p {
     font-size: 20px;
+}
+.modala {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }

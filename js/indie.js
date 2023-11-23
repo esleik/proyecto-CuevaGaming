@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
   btnMostrarIndie.addEventListener("click", function () {
     const targetElement = document.getElementById("collapseExample");
     window.scrollTo({
-      top: targetElement.offsetTop - 100, // Puedes ajustar este valor según sea necesario
+      top: targetElement.offsetTop - 100,
       behavior: "smooth"
     });
   });

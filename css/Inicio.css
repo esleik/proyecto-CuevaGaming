@@ -42,6 +42,13 @@
       font: 100% sans-serif;
       color: #191919;
   }
+  .letraEspecialIndie {
+    background: -webkit-linear-gradient(rgb(211, 171, 70), rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(224, 220, 195);
+    font: 200% sans-serif;
+}
 
   .logo {
       height: 90px;

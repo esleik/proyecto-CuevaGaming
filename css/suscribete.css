@@ -6,7 +6,7 @@
   /* Ajusta la altura en pantallas más pequeñas utilizando una media query */
   @media (max-width: 576px) {
     .navbar {
-      height: 340px; /* Cambia la altura para pantallas más pequeñas (móvil) */
+      height: 210px; /* Cambia la altura para pantallas más pequeñas (móvil) */
     }
   }
 
@@ -22,6 +22,14 @@
 
 }
 
+.Cambiohr {
+    border: none;
+    border-top: 4px solid rgb(226, 217, 91);
+    /* Cambia el color y grosor */
+    margin: 0px 0;
+    /* Agrega margen superior e inferior */
+}
+
 .quitaHyper{
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
     -webkit-background-clip: text;
@@ -35,8 +43,8 @@
 }
 
 .logo {
-    height: 160px;
-    width: 340px;
+    height: 90px;
+    width: 350px;
 }
 .lista {
     margin-left: 40px;
@@ -66,15 +74,15 @@ body{
     margin-bottom: 300px;
 }
 .suscribete {
-    font-size: 55px;
+    font-size: 50px;
     font-family: 'Noto Serif', serif;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
     position: absolute;
-    top: 19.3%;
-    left: 5%;
+    top: 19.8%;
+    left: 7%;
 }
 
   
@@ -124,28 +132,29 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 2px solid;
+    border-bottom: 3px solid;
     font-size: 14px;
-    color: wheat;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     padding: 20px 45px 20px 20px;
     position: absolute;
   }
   .input-box input:hover{ 
-    border-color: #6b6b6b;
-    color: wheat;
-  }
-  .input-box input:active{ 
-    border-color: #838282;
-    color: wheat;
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   .input-box input:focus{ 
-    border-color: #000000;
-    color: wheat;    
-  }
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
   .input-box input::placeholder{
     border-color: #fff;
-    color: wheat;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
   }
+  .input-box input:focus::placeholder {
+    color: transparent; /* Hace que el texto del placeholder sea transparente cuando el input tiene foco */
+}
   .input-box i{
     position: absolute;
     right: 20px;
@@ -200,29 +209,27 @@ body{
   }
 
 .nombreusuario{
-    margin-top: 10px;
+    margin-top: 9px;
     margin-left: 225px;
 }
 .correologo{
-    margin-top: -140px;
+    margin-top: -141px;
     margin-left: 225px;
 }
 .candado{
-    margin-top: 90px;
+    margin-top: 87px;
     margin-left: 225px;
 }
 
 
 .primeralinea {
-    height: 6px;
+    height: 5px;
     border-radius: 5px;
     width: 66%;
-    margin-top: 79px;
+    margin-top: 71px;
     margin-left: 390px;
     opacity: 100%;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
-
-
 }
 
 
@@ -411,17 +418,17 @@ body{
     text-decoration: none;
     position: absolute;
     top: 130%;
-    left: 33%;
+    left: 33.7%;
     transition: 0.5s;
 }
 .flechamaxim{
     position: absolute;
-    top: 164%;
+    top: 158%;
     left: 34%;
 }
 .especialidad2{
     position: absolute;
-    top: 172%;
+    top: 166%;
     left: 24.8%;
     color: white;
     font-size: 20px;
@@ -430,7 +437,7 @@ body{
 .nombremaxim{
     position: absolute;
     font-weight: bold;
-    top: 161%;
+    top: 155%;
     left: 21%;
     width: 20%;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
@@ -440,12 +447,12 @@ body{
 }
 .flechaalejandro{
     position: absolute;
-    top: 143.5%;
+    top: 142.5%;
     left: 34%;
 }
 .especialidad{
     position: absolute;
-    top: 151%;
+    top: 150%;
     left: 19.9%;
     color: white;
     font-size: 20px;
@@ -453,7 +460,7 @@ body{
 .nombrealejandro{
     position: absolute;
     font-weight: bold;
-    top: 140%;
+    top: 139%;
     left: 16.4%;
     width: 20%;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
@@ -463,12 +470,12 @@ body{
 }
 .flechaismail{
     position: absolute;
-    top: 184%;
+    top: 174.2%;
     left: 34%;
 }
 .especialidad3{
     position: absolute;
-    top: 192%;
+    top: 182%;
     left: 22.7%;
     color: white;
     font-size: 20px;
@@ -476,7 +483,7 @@ body{
 .nombreismail{
     position: absolute;
     font-weight: bold;
-    top: 181%;
+    top: 171%;
     left: 20.8%;
     width: 20%;
     background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
@@ -497,7 +504,7 @@ body{
 .flecha{
     position: absolute;
     top: 145%;
-    left: 44.2%;
+    left: 44.6%;
     cursor: pointer;
     transition: 0.6s;
 }
@@ -619,18 +626,18 @@ body{
 }
 .chile{
     position: absolute;
-    top: 145.9%;
+    top: 144.7%;
     left: 16.5%;
 }
 .rusia{
     position: absolute;
-    top: 167%;
+    top: 160.9%;
     left: 21%;
 }
 .marruecos{
     position: absolute;
-    top: 186.9%;
-    left: 21%;
+    top: 177%;
+    left: 20.9%;
 }
 .parrafo2 {
     font-size: 22px;
@@ -757,7 +764,7 @@ body{
     width: 20%;
 }
 #probando {
-    margin-top: 410px;
+    margin-top: 420px;
     margin-left: 535px;
     font-size: 15px;
     font-family: 'Acme', sans-serif;
@@ -909,27 +916,28 @@ body{
     /* Estilos específicos para pantallas más pequeñas */
     .suscribete {
       font-size: 25px;
-      margin-top: 190px;
+      margin-top: 71px;
       margin-left: 20px;
     }
     .primeralinea{
         width: 40%;
         margin-left: 210px;
-        margin-top: 30px;
+        margin-top: 40px;
     }
     .card1{
-        margin-left: 20px;
-        margin-top: -10px;
-        width: 330px;
-        height: 400px;
+        margin-left: 13px;
+        margin-top: 45px;
+        width: 340px;
+        height: 500px;
     }
     .wrapper{
-        width: 85%;
-        margin-top: -400px;
-        height: 10;
+        width: 80%;
+        margin-top: -485px;
+        height: 100%;
     }
     .wrapper h1{
-        font-size: 25px;
+        font-size: 32px;
+        margin-left: 10px;
     }
     .card2{
         margin-left: 18px;
@@ -937,6 +945,9 @@ body{
         margin-top: 150px;
         width: 330px;
     }
+    .input-box input::placeholder{
+        font-size: 14px;
+      }
     .parrafo2{
         font-size: 17px;
     }
@@ -956,13 +967,13 @@ body{
         margin-left: 30px;
     }
     .nombreusuario{
-        margin-left: 195px;
+        margin-left: 180px;
     }
     .candado{
-        margin-left: 195px;
+        margin-left: 180px;
     }
     .correologo{
-        margin-left: 195px;
+        margin-left: 180px;
     }
     .lineavertical{
         display: none;

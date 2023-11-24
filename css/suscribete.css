@@ -93,13 +93,13 @@ body{
     color:#414141;
   }
   
-  .wrapper, .wrapper h1, .wrapper .input-box, .input-box input, .input-box input::placeholder, .input-box i, .wrapper .remember-forgot, .remember-forgot label input, .remember-forgot a, .remember-forgot a:hover, .wrapper .btn, .wrapper .register-link, .register-link p a, .register-link p a:hover{
+  .formulario, .formulario h1, .formulario .input-box, .input-box input, .input-box input::placeholder, .input-box i, .formulario .boton, .boton label input, .boton a, .boton a:hover, .formulario .btn, .formulario .register-link, .register-link p a, .register-link p a:hover{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
-  .wrapper{
+  .formulario{
     margin-top: -450px;
     margin-left: 158px;
     width: 320px;
@@ -109,7 +109,7 @@ body{
     border-radius: 5px;
     padding: 30px 40px;
   }
-  .wrapper h1{
+  .formulario h1{
     font-size: 36px;
     text-align: center;
     margin-left: 15px;
@@ -119,7 +119,7 @@ body{
     -webkit-text-fill-color: transparent;
     text-decoration: none;
   }
-  .wrapper .input-box{
+  .formulario .input-box{
     position: relative;
     width: 100%;
     height: 50px;
@@ -163,17 +163,17 @@ body{
     font-size: 13px;
     
   }
-  .wrapper .remember-forgot{
+  .formulario .boton{
     width: 90%;
     font-size: 13px;
     margin: -10px 15px 15px;
   }
-  .remember-forgot label input{
+  .boton label input{
     accent-color: #fff;
     margin-right: 3px;
   }
 
-  .wrapper .btn {
+  .formulario .btn {
     width: 30%;
     height: 40px;
     background: #fff;
@@ -187,15 +187,15 @@ body{
     font-weight: 600;
     position: absolute;
   }
-  .wrapper .btn:hover {
+  .formulario .btn:hover {
     background: #e0e0e0;
     color: #333;
   }
-  .wrapper .btn:active{
+  .formulario .btn:active{
     background: #cac6c6;
     color: #333;
   }
-  .wrapper .register-link{
+  .formulario .register-link{
     font-size: 12px;
     text-align: center;
     margin: 20px 0 15px;
@@ -385,35 +385,12 @@ body{
     }
   }
   
-.boton{
-    position: absolute;
-    top: 78%;
-    left: 32%;
-    margin-left: -30px;
-    width: 140px;
-    height: 45px;
-    font-size: 14px;
-    padding: 10px 20px;
-    background-color: #202020;
-    color: #FFFF7F;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.boton:hover{
-    background-color: rgb(22, 22, 22);
-    transform: scale(1.01);
-}
-.boton:active{
-    background-color: rgb(29, 28, 28);
-}
+
 
 .sobrenosotros{
     font-size: 60px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: -webkit-linear-gradient(rgb(255, 220, 132), rgb(233, 232, 228));
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -784,134 +761,6 @@ body{
     opacity: 1;
 }
 
-@media (max-width: 768px) {
-    /* Estilos específicos para pantallas más pequeñas */
-    .suscribete {
-      font-size: 35px;
-      margin-top: -25px;
-      margin-left: -10px;
-    }
-
-    .ventajas{
-        margin-left: 90px;
-        font-size: 25px;
-    }
-    .imgVentajas{
-        margin-left: 230px;
-    }
-    .parrafo2{
-        font-size: 23px;
-        width: 70%;
-        margin-left: 110px;
-    }
-    .parrafo3{
-        font-size: 23px;
-        width: 70%;
-        margin-left: 110px;
-    }
-    .parrafo4{
-        font-size: 23px;
-        width: 70%;
-        margin-left: 110px;
-    }
-    .parrafo5{
-        font-size: 23px;
-        width: 70%;
-        margin-left: 110px;
-    }
-    .parrafo6{
-        font-size: 23px;
-        width: 60%;
-        margin-left: 110px;
-    }
-    .segundalinea{
-        width: 97%;
-        margin-top: 500px;
-    }
-    .contacte{
-        margin-top: 500px;
-        margin-left: 20px;
-        font-size: 25px;
-    }
-    .soporte{
-        margin-top: 500px;
-        margin-left: 20px
-    }
-    .numero{
-        margin-top: 490px;
-        margin-left: 100px;
- 
-    }
-    .correo{
-        margin-top: 490px;
-        margin-left: 100px;
-  
-    }
-    .redessociales{
-        font-size: 25px;
-        margin-left: 420px;
-        margin-top: 500px;
-        font-size: 25px;
-    }
-    .instagram{
-        margin-top: 490px;
-        margin-left: 370px;
-        height: 60px;
-        width: 60px;
-    }
-    .twitter{
-        margin-top: 490px;
-        margin-left: 460px;
-        height: 60px;
-        width: 60px;
-    
-    }
-    .tiktok{
-        margin-top: 50px;
-        margin-left: 100px;
-        height: 60px;
-        width: 60px;
-        margin-top: 490px;
-        margin-left: 550px;
-    }
-    .sobrenosotros{
-        margin-top: 500px;
-        margin-left: -275px;
-        font-size: 35px;
-    }
-    .flecha{
-        margin-top: 500px;
-        margin-left: -235px;
-    }
-    .chile{
-        margin-top: 550px;
-        margin-left: -320px;
-        width: 40px;
-        height: 40px;
-    }
-    .rusia{
-        margin-top: 520px;
-        margin-left: -320px;
-        width: 40px;
-        height: 40px;
-    }
-    .marruecos{
-        margin-top: 490px;
-        margin-left: -320px;
-        width: 40px;
-        height: 40px;
-    }
-    #probando {
-        margin-top: 790px;
-        margin-left: 220px;
-        width: 40%;
-    }
-    .primeralinea{
-        margin-top: 145px;
-        margin-left: 250px;
-        width: 65%;
-    }
-}
 
 @media (max-width: 390px) {
     /* Estilos específicos para pantallas más pequeñas */
@@ -926,17 +775,17 @@ body{
         margin-top: 40px;
     }
     .card1{
-        margin-left: 13px;
+        margin-left: 12px;
         margin-top: 45px;
         width: 340px;
         height: 500px;
     }
-    .wrapper{
+    .formulario{
         width: 80%;
         margin-top: -485px;
         height: 100%;
     }
-    .wrapper h1{
+    .formulario h1{
         font-size: 32px;
         margin-left: 10px;
     }
@@ -964,7 +813,7 @@ body{
     .parrafo6{
         font-size: 17px;
     }
-    .wrapper{
+    .formulario{
         margin-left: 30px;
     }
     .nombreusuario{
@@ -979,55 +828,51 @@ body{
     .lineavertical{
         display: none;
     }
-    .boton{
-        margin-left: 20px;
-        margin-top: 150px;
-    }
     .ventajas{
-        margin-top: 555px;
+        margin-top: 500px;
         margin-left: -90px;
         width: 50%;
     }
     .imgVentajas{
-        margin-top: 565px;
+        margin-top: 510px;
         margin-left: -270px;
         width: 65px;
         height: 65px;
     }
     .parrafo2{
-        margin-top: 600px;
-        margin-left: -155px;
+        margin-top:530px;
+        margin-left: -160px;
     }
     .parrafo3{
-        margin-top: 585px;
-        margin-left: -155px;
+        margin-top: 510px;
+        margin-left: -160px;
     }
     .parrafo4{
-        margin-top: 570px;
-        margin-left: -155px;
+        margin-top: 490px;
+        margin-left: -160px;
     }
     .parrafo5{
-        margin-top: 555px;
-        margin-left: -155px;
+        margin-top: 470px;
+        margin-left: -160px;
     }
     .parrafo6{
-        margin-top: 540px;
-        margin-left: -155px;
+        margin-top: 450px;
+        margin-left: -160px;
     }
     .tick{
-        margin-top: -265px;
+        margin-top: -290px;
         margin-left: 225px;
         width: 40px;
         height: 40px;
     }
     .tick2{
-        margin-top: -225px;
-        margin-left: 302px;
+        margin-top: -240px;
+        margin-left: 300px;
         width: 40px;
         height: 40px;
     }
     .tick3{
-        margin-top: -180px;
+        margin-top: -185px;
         margin-left: 285px;
         width: 40px;
         height: 40px;
@@ -1045,13 +890,13 @@ body{
         height: 40px;
     }
     .sobrenosotros{
-        margin-top: 1230px;
-        margin-left: -90px;
+        margin-top: 570px;
+        margin-left: -65px;
         width: 100%;
     }
     .flecha{
-        margin-top: 1230px;
-        margin-left: -130px;
+        margin-top: 550px;
+        margin-left: -30px;
     }
     .segundalinea{
             margin-top: 1300px;
@@ -1125,5 +970,21 @@ body{
         margin-left: 100px;
         width: 60%;
         font-size: 16px;
+    }
+    .flechaalejandro{
+        top: 159.5%;
+        left: 34%;
+    }
+    .especialidad{
+        top: 167%;
+        left: 21%;
+
+    }
+    .nombrealejandro{
+        top: 230%;
+        left: 5%;
+        width: 100%;
+        font-size: 20px;
+
     }
 }
